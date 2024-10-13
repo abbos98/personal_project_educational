@@ -1,0 +1,13 @@
+.box_style_other {
+background-image: url(../../assets/digital-marketing-agency.jpg);
+width: 290px;
+height: 200px;
+border-radius: 30px;
+opacity: 0.2;
+margin-left: -40px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+z-index: 1;
+} 
