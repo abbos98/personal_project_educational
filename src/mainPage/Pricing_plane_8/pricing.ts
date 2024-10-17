@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const Wrapper_prising = styled.div`
-background-color: #0B0B0B;
-display: flex;
-justify-content: center;
+  background-color: #0B0B0B;
+  display: flex;
+  justify-content: center;
 
 .Pricing_plane_wrapper {
- padding-top: 100px;
- width: 900px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
 }
 .top_text_sstyle {
   display: flex;
@@ -44,8 +45,7 @@ justify-content: center;
 }
 .Montly_style:hover {
   background-color:  #EEFB13;
-  color: #0B0B0B;
-  
+  color: #0B0B0B; 
 }
 .Montly_style:active {
   transform: scale(1.1);
@@ -104,15 +104,12 @@ justify-content: center;
   justify-content: space-between;
   cursor: pointer;
   animation: kkk 1s linear alternate;
-
 }
 .first_box_style:hover {
   transform: scale(1.1);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   border: 1px solid yellow;
-  
 }
-
 .box_inside_left {
   display: flex;
   flex-direction: column;
@@ -134,7 +131,6 @@ justify-content: center;
 .number_two_wrapper {
   display: flex;
   align-items: end;
-
 }
 .ninteen {
   color: var(--White, #FFF);
@@ -165,11 +161,13 @@ justify-content: center;
   font-style: normal;
   font-weight: 400;
   line-height: 34px;
-  width: 150px;
+  max-width: 150px;
+  width: 100%;
   height: 130px;
 }
 .box_inside_center {
-  width: 2px;
+  max-width: 2px;
+  width: 100%;
   height: 200px;
   background: gray;
   margin-top: 10px;
@@ -178,7 +176,6 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 8px;
- 
 }
 .Test_in_wrapper {
  display: flex;
@@ -186,7 +183,8 @@ justify-content: center;
  gap: 5px;
 }
 .right_style {
-  width: 11px;
+  max-width: 11px;
+  width: 100%;
   height: 11px;
 }
 .testS_style {
@@ -201,7 +199,8 @@ justify-content: center;
 }
 .choose_button {
   display: flex;
-  width: 190px;
+  max-width: 190px;
+  width: 100%;
   height: 35px;
   padding: 20px 30px;
   justify-content: center;
@@ -217,11 +216,14 @@ justify-content: center;
   text-transform: uppercase;
   background-color: #0B0B0B;
   color: white;
-  
+  cursor: pointer; 
 }
 .choose_button:hover {
   background-color: #EEFB13;
   color: black;
+}
+.choose_button:active {
+  transform: scale(1.05);
 }
 .second_box_style {
   max-width: 430px;
@@ -235,13 +237,28 @@ justify-content: center;
 }
 .second_box_style:hover {
   transform: scale(1.1);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   border: 1px solid yellow;
 }
 .second_box_style:active{
   
 }
 
+@media only screen and (max-width: 930px) {
 
 
+  
+
+.top_text_sstyle {
+  padding: 0px 50px;
+}
+.line_second {
+ 
+}
+.cost_boxes_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+}
 `

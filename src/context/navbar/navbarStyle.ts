@@ -43,7 +43,6 @@ export const Wrapper_navbar = styled.div`
   display: flex;
   align-items: center;
 }
-
 .testStyle {
   text-decoration: none;
   color: var(--White, #FFF);
@@ -55,7 +54,6 @@ export const Wrapper_navbar = styled.div`
 }
 .testStyle:hover {
   text-decoration: underline;
-  
 }
 .icon_style {
   color: var(--White, #FFF);
@@ -65,6 +63,21 @@ export const Wrapper_navbar = styled.div`
   font-weight: 900;
   line-height: normal;
 }
+.login_and_cart_wrapper {
+  display: flex;
+  gap: 7px;
+}
+.menu_wrapper {
+  display: none;
+}
+.login_style {
+  color: white;
+  cursor: pointer;
+}
+.payment_style {
+  color: white;
+  cursor: pointer;
+}
 .right_side {
   display: flex;
   align-items: center;
@@ -73,8 +86,8 @@ export const Wrapper_navbar = styled.div`
   border-radius: 999px;
   border: 1px solid var(--Dark-Primary, #EEFB13);
   display: flex;
-  width: 170px;
-  height: 55px;
+  width: 150px;
+  height: 45px;
   padding: 20px 30px;
   justify-content: center;
   align-items: center;
@@ -92,11 +105,64 @@ export const Wrapper_navbar = styled.div`
   background: transparent;
   color: #FFF;
   font-family: "Inter", sans-serif;
-  font-size: 10px;
+  font-size: 8px;
   font-style: normal;
   font-weight: 700;
   line-height: 27px; 
   text-transform: uppercase;
 }
+.button_style:hover {
+  cursor: pointer;
+}
+.arrow_style {
+   width: 20px;
+   height: 20px;
+   font-size: 10px;
+}
+.menu_style {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1240px) {
+  padding: 0px 30px;
+
+.wrapper_all_side {
+  display: flex;
+}
+.login_and_cart_wrapper {
+  gap: 15px;
+}
+.menu_wrapper {
+  display: flex;
+}
+.menu_style {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.login_style {
+  color: white;
+  font-size: 30px;
+}
+.payment_style {
+  color: white;
+  font-size: 30px;
+}
+.button_wrap {
+  display: none;
+}
+.right_side {
+  display: none;
+}
+
+}
+
+@media only screen and (max-width: 930px) {
+ 
+}
+
+
 
 `

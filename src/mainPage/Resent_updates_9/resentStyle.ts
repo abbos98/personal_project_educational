@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Wrapper_resent = styled.div`
-background-color:  #0B0B0B;
-display: flex;
-justify-content: center;
+  background-color:  #0B0B0B;
+  display: flex;
+  justify-content: center;
 
 .Resent_uptadats_wrapper {
-  padding-top: 100px;
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
 }
 .text_icon_wrapper {
   display: flex;
@@ -16,7 +16,8 @@ justify-content: center;
   gap: 10px;
 }
 .line_style {
-  width: 65px;
+  max-width: 65px;
+  width: 100%;
   height: 15px;
 }
 .Recent_up_style {
@@ -28,12 +29,12 @@ justify-content: center;
   font-weight: 700;
   line-height: 72px; 
 }
-
 .three_boxes_wrapper {
   margin-top: 60px;
 }
 .big_box {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   height: 260px;
   background-color: #171717;
   border-radius: 20px;
@@ -41,19 +42,20 @@ justify-content: center;
   align-items: center;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
 }
 .left_side_up {
  
 }
 .up_two_style {
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   height: 230px;
-  border-radius: 30px;
+  border-radius: 20px;
   background: #D9D9D9;
 }
 .right_side_up {
-
+  
 }
 .time_wrapper_info {
   display: flex;
@@ -61,28 +63,40 @@ justify-content: center;
 }
 .october {
   display: flex;
-  gap: 7px;
+  gap: 5px;
 }
 .calendar_style {
   color: var(--Dark-Primary, #EEFB13);
   font-family: "Font Awesome 6 Free";
-  font-size: 16px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  align-items: center;
 }
 .num_in_style {
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
-  font-size: 16x;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 34px; 
 }
-.login {
+.login_wrapper {
   display: flex;
-  gap: 10px;
+  gap: 5px;
+}
+.login_style {
+  color: var(--Dark-Primary, #EEFB13);
+  font-family: "Font Awesome 6 Free";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
 }
 .login_icon {
 
@@ -91,31 +105,38 @@ justify-content: center;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 34px; 
+}
+.text_container_in {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .inside_pioner_text {
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Syne", sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 33px;
-  width: 450px;
+  line-height: 32px;
+  max-width: 450px;
+  width: 100%;
 }
 .taxi_style {
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 14.5px;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 28px;
   opacity: 0.6;
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
 }
 .butt_in_style {
 
@@ -123,7 +144,8 @@ justify-content: center;
 .Read_more_style {
   display: inline-flex;
   height: 45px;
-  width: 160px;
+  max-width: 160px;
+  width: 100%;
   padding: 20px 30px;
   justify-content: center;
   align-items: center;
@@ -148,22 +170,24 @@ justify-content: center;
 .Read_more_style:active{
   transform: scale(1.1);
 }
-
 .small_boxes_wrapper {
   display: flex;
   gap: 20px;
   margin-top: 20px;
 }
 .small_left_box_wraeppr {
-  width: 440px;
+  max-width: 440px;
+  width: 100%;
   height: 240px;
-  border-radius: 30px;
+  border-radius: 20px;
   background: var(--700, #171717);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .small_right_box_wraeppr {
-  width: 440px;
+  max-width: 440px;
+  width: 100%;
   height: 240px;
   border-radius: 30px;
   background: var(--700, #171717);
@@ -171,12 +195,12 @@ justify-content: center;
 .left_small_wrapper {
   display: flex;
   justify-content: center;
-  padding-left: 7px;
 }
 .comp_img {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 200px;
-  border-radius: 30px;
+  border-radius: 20px;
   background: #D9D9D9;
 }
 .comp_inside_right {
@@ -222,15 +246,15 @@ justify-content: center;
   width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
-  font-family: Syne;
+  font-family: "Syne", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px; 
- 
 }
 .tab_text_small {
-  width: 190px;
+  max-width: 190px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -275,5 +299,63 @@ justify-content: center;
 }
 
 
+@media only screen and (max-width:930px) {
+  background-color: red;
+  
+  padding: 0px 30px;
 
+.three_boxes_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.big_box {
+  max-width: 440px;
+  width: 100%;
+  height: 240px;
+  border-radius: 30px;
+  background: var(--700, #171717);
+}
+.left_side_up {
+ 
+}
+.up_two_style {
+  max-width: 350px;
+  width: 100%;
+  height: 230px;
+  border-radius: 20px;
+  background: #D9D9D9;
+}
+.right_side_up {
+  
+}
+.time_wrapper_info {
+  display: flex;
+  gap: 30px;
+}
+.october {
+  display: flex;
+  gap: 5px;
+}
+.calendar_style {
+  color: var(--Dark-Primary, #EEFB13);
+  font-family: "Font Awesome 6 Free";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.num_in_style {
+  color: var(--White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Inter", sans-serif;
+  font-size: 1px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+}
+}
 `

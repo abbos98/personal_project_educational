@@ -25,7 +25,7 @@ const IlluminateCompanent = () => {
 
              <div className='inside_two'>
                 <p className='text_head'>Designing the Future</p>
-                <p className='text_tab'>Financial planners help people to gain knowledge aboutw toio invest and save their money in the most Fina planners help people to gain knowledge aboutw toio invest and save their money in the most Financial planners </p>
+                <p className='text_tab'>Financial planners help people to gain knowledge about wtoio invest and save their money in the most Fina planners help people to gain knowledge aboutw toio invest and save their money in the most Financial planners </p>
 
                 <div className='main_wrap_tel'>
                     <div className='tel_wrap'>

@@ -5,14 +5,13 @@ import NavbarComponent from './context/navbar/navbar';
 import RouterComponent from './router';
 // import MainPageComponent from './mainPage';
 // import { Wrapper_footbar } from './context/footbar/footbarStyle';
-import Footer from './context/footbar/footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <BrowserRouter>
-    <NavbarComponent />
+  <NavbarComponent />
     <RouterComponent />
 
   </BrowserRouter>

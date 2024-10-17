@@ -1,0 +1,9 @@
+.Servises_main_image {
+  background-image: url(../assets/servises_main_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+}

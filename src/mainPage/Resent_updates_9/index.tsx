@@ -29,8 +29,8 @@ const Resent_updatesComponent = () => {
                    <p className='num_in_style'>October 19, 2023</p>
                 </div>
  
-                <div className='login'>
-                   <img src={login} alt='login_icon'/>
+                <div className='login_wrapper'>
+                   <img className='login_style' src={login} alt='login_icon'/>
                    <p className='by_admin_style'>By admin</p>
                 </div>
               </div>
@@ -46,6 +46,10 @@ const Resent_updatesComponent = () => {
               </div>
             </div>
        </div>
+ 
+
+
+
  
        <div className='small_boxes_wrapper'>
           <div className='small_left_box_wraeppr'>

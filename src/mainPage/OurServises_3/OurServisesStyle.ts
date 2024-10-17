@@ -8,9 +8,9 @@ padding-top: 100px;
 height: 1000px;
 
 .OurServise_main {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   height: 700px;
-  
 }
 .Top_texts_wrapper {
   display: flex;
@@ -41,7 +41,7 @@ height: 1000px;
   justify-content: center;
 }
 .inside_line {
-  max-width: 1290px;
+  max-width: 900px;
   width: 100%;
   height: 1px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #CCC;
@@ -55,7 +55,8 @@ height: 1000px;
   margin-top: 50px;
 }
 .box_style {
-  width: 290px;
+  max-width: 290px;
+  width: 100%;
   height: 200px;
   border-radius: 30px;
   border: 1px solid var(--200, #CCC);
@@ -92,8 +93,6 @@ height: 1000px;
   font-style: normal;
   font-weight: 700;
   line-height: 33px; 
-
-  
 }
 .digital_style {
   color: var(--White, #FFF);
@@ -107,11 +106,11 @@ height: 1000px;
   z-index: 2;
 }
 .icon_style {
-  width: 65px;
+  max-width: 65px;
+  width: 100%;
   height: 65px;
 }
 .icon_st {
-
   z-index: 999;
 }
 .digital_text {
@@ -124,7 +123,8 @@ height: 1000px;
   line-height: 33px;
 }
 .Text_style_inside {
-  width: 290px;
+  max-width: 290px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Syne", sans-serif;
@@ -141,9 +141,63 @@ height: 1000px;
   z-index: 111;
 }
 .video_wrapper {
-  width: 1290px;
+  max-width: 1290px;
+  width: 100%;
   height: 445px;
   border-radius: 30px;
   background: #D9D9D9;
 }
+
+@media only screen and (max-width: 1240px) {
+  height: 1450px;
+
+.OurServise_main {
+  width: 750px;
+}
+.boxes_wrapper {
+  display: grid;
+  grid-template-areas: 'a a';
+  gap: 50px;
+}
+.box_style {
+  max-width: 1000px;
+  height: 250px;
+ }
+ 
+}
+@media only screen and (max-width: 930px) {
+height: 2350px;
+
+.OurServise_main {
+  width: 400px;
+}
+.boxes_wrapper {
+  display: grid;
+  grid-template-areas: 'a';
+  gap: 50px;
+}
+.Our_Servises_style {
+  color: var(--White, #FFF);
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Body/M */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.long_texts_style {
+  width: 200px;
+  color: var(--White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+}
+
+
 `

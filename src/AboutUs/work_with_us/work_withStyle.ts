@@ -8,7 +8,8 @@ justify-content: center;
 padding-top: 100px;
 
 .main_main {
-width: 900px;
+  max-width: 900px;
+  width: 100%;
 }
 .firts_line {
   display: flex;
@@ -19,10 +20,10 @@ width: 900px;
   -webkit-text-stroke-width: 2;
   -webkit-text-stroke-color: var(--Dark-Primary, #EEFB13);
   font-family: "Syne", sans-serif;
-  font-size: 110px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 140px;
+  line-height: 120px;
   opacity: 0.5;
   color: yellow;
 }
@@ -31,7 +32,8 @@ width: 900px;
   justify-content: space-between;
 }
 .one {
-  width: 240px;
+  max-width: 240px;
+  width: 100%;
   height: 250px;
   border-radius: 20px;
   background: var(--900, #0B0B0B);
@@ -44,7 +46,8 @@ width: 900px;
   display: flex;
 }
 .icon_style {
-  width: 25px;
+  max-width: 25px;
+  width: 100%;
   height: 25px;
 }
 .iziti_style {
@@ -60,7 +63,8 @@ width: 900px;
 
 }
 .it_is {
-  width: 220px;
+  max-width: 220px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -87,14 +91,16 @@ width: 900px;
   gap: 20px;
 }
 .facebook {
-  width: 30px;
+  max-width: 30px;
+  width: 100%;
   height: 30px;
   border-radius: 20px;
   border: 1px solid var(--200, #CCC);
   opacity: 0.2;
 }
 .Company_wrapper {
-  width: 130px;
+  max-width: 130px;
+  width: 100%;
   height: 250px;
   border-radius: 20px;
   background: var(--900, #0B0B0B);
@@ -128,7 +134,8 @@ width: 900px;
     text-decoration: underline;
 }
 .Company_wrapper_two {
-  width: 220px;
+  max-width: 220px;
+  width: 100%;
   height: 220px;
   border-radius: 20px;
   background: var(--900, #0B0B0B);
@@ -176,7 +183,8 @@ width: 900px;
   margin-top: 5px;
 }
 .address_style {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -191,14 +199,16 @@ width: 900px;
   text-decoration: underline;
 }
 .Company_wrapper_three {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   height: 240px;
   background-color: #0B0B0B;
   border-radius: 20px;
   padding: 10px;
 }
 .Establish {
-  width: 230px;
+  max-width: 230px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -215,7 +225,8 @@ width: 900px;
   padding-top: 15px;
 }
 .your_email_style {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   height: 55px;
   border-radius: 999px;
   background: var(--900, #0B0B0B);
@@ -274,7 +285,51 @@ width: 900px;
     text-decoration: underline;
 }
 
+@media only screen and (max-width:1240px) {
+
+}
+@media only screen and (max-width:930px) {
 
 
+.main_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firts_line {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.work_with_us {
+  font-size: 60px;
+
+}
+.second_line {
+  display: none;
+}
+.main_third {
+
+}
+.bottom_left {
+
+}
+.rights {
+  font-size: 15px;
+  width: 170px;
+}
+.bottom_right {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.texts_last_style {
+  width: 110px;
+  font-size: 12px;
+ 
+}
+
+}
 
 `

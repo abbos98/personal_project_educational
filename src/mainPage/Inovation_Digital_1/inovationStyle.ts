@@ -14,7 +14,8 @@ export const Inovation_Digital_wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   height: 600px;
   margin-top: 100px;
 }
@@ -43,7 +44,8 @@ export const Inovation_Digital_wrapper = styled.div`
 .second_div {
   border-radius: 15px;
   background: var(--Dark-Primary, #EEFB13);
-  width: 330px;
+  max-width: 330px;
+  width: 100%;
   height: 90px;
   display: flex;
   align-items: center;
@@ -67,7 +69,8 @@ export const Inovation_Digital_wrapper = styled.div`
   margin-top: 26px;
 }
 .right_style {
-  width: 120px;
+  max-width: 120px;
+  width: 100%;
   height: 75px;
 }
 .solution_style {
@@ -96,13 +99,61 @@ export const Inovation_Digital_wrapper = styled.div`
   margin-left: -30px;
   position: relative;
   left: 65px;
-  width: 565px;
+  max-width: 565px;
+  width: 100%;
   height: 500px;
   opacity: 0.6;
 }
-.second_part_wrapper {
-  width: 100%;
+
+
+@media only screen and (max-width: 1240px) {
+
+}
+.Main_contaniner {
+  width: 900px;
 }
 
+@media only screen and (max-width: 930px) {
 
+
+.first_line {
+  display: flex;
+  justify-content: center;
+}
+.text_style {
+  font-size: 40px;
+}
+.second_div {
+  width: 200px;
+  height: 70px;
+}
+.text_style_second {
+  font-size: 40px;
+}
+.wrapper_second_line {
+  display: flex;
+  justify-content: center;
+}
+.right_style {
+  width: 90px;
+  height: 90px;
+}
+.solution_style {
+  font-size: 40px;
+}
+.small_image {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: -90px;
+}
+.first_image_wrap {
+  display: none;
+}
+.secondImage_wrap {
+ width: 500px;
+ height: 350px;
+}
+
+}
 `

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Wrapper_work_with } from './work_withStyle';
 import one from '../../assets/D.png';
 import SmsIcon from '@mui/icons-material/Sms';
@@ -61,6 +60,7 @@ const Work_witch_us_Component = () => {
              </div>
             </div> 
             <div className='main_third'>
+              
        <div className='bottom_left'>
          <p className='rights'>© Yoursitename  2024 | All Rights Reserved</p>
        </div>

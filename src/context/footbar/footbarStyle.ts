@@ -1,4 +1,4 @@
-import styled from "styled-components";
+  import styled from "styled-components";
 
 
 export const Footer_test = styled.div`
@@ -7,12 +7,12 @@ justify-content: center;
 background: var(--700, #171717);
 
 .main_main {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   height: 621px;
 }
 .main_first {
   padding-top: 70px;
- 
 }
 .left_side_top {
   display: flex;
@@ -23,7 +23,8 @@ background: var(--700, #171717);
   gap: 1px;
 }
 .icon_style {
-  width: 25px;
+  max-width: 25px;
+  width: 100%;
   height: 25px;
 }
 .iziti_style {
@@ -44,7 +45,6 @@ background: var(--700, #171717);
   display: flex;
   align-items: center;
 }
-
 .testStyle {
   text-decoration: none;
   color: var(--White, #FFF);
@@ -66,12 +66,6 @@ background: var(--700, #171717);
   font-weight: 900;
   line-height: normal;
 }
-.line {
-  width: 1920px;
-  height: 1px;
-  opacity: 0.2;
-  background: #EEFB13;
-}
 .main_second {
   display: flex;
   gap: 26px;
@@ -81,7 +75,6 @@ background: var(--700, #171717);
   display: flex;
   flex-direction: column;
   gap: 20px;
- 
 }
 .follow_us {
   color: var(--White, #FFF);
@@ -98,14 +91,16 @@ background: var(--700, #171717);
   gap: 20px;
 }
 .facebook {
-  width: 30px;
+  max-width: 30px;
+  width: 100%;
   height: 30px;
   border-radius: 20px;
   border: 1px solid var(--200, #CCC);
   opacity: 0.2;
 }
 .long_text {
-  width: 230px;
+  max-width: 230px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -139,13 +134,12 @@ background: var(--700, #171717);
   cursor: pointer;
 }
 .text_style_com:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .Company_wrapper {
   display: flex;
   flex-direction: column;
   gap: 15px;
-
 }
 .company_style {
 
@@ -186,7 +180,8 @@ background: var(--700, #171717);
   margin-top: 5px;
 }
 .address_style {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -198,10 +193,11 @@ background: var(--700, #171717);
   cursor: pointer;
 }
 .address_style:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .Establish {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -217,7 +213,8 @@ background: var(--700, #171717);
   cursor: pointer;
 }
 .your_email_style {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   height: 55px;
   border-radius: 999px;
   background: var(--900, #0B0B0B);
@@ -226,7 +223,8 @@ background: var(--700, #171717);
 }
 .but_yellow {
   display: flex;
-  width: 45px;
+  max-width: 45px;
+  width: 100%;
   height: 45px;
   padding: 16.667px 25px;
   justify-content: center;
@@ -273,5 +271,67 @@ background: var(--700, #171717);
 .texts_last_style:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 1240px) {
+ padding: 0px 30px;
+
+
+
+}
+
+@media only screen and (max-width: 930px) {
+
+
+  .main_second {
+    display: none;
+  }
+  .d_style {
+    display: flex;
+    height: 20px;
+  }
+  .icon_style {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+  }
+  .iziti_style {
+    font-size: 10px;
+  }
+  .texts_warpper {
+    display: flex;
+   
+  }
+  .button_wrap {
+    display: flex;
+    align-items: center;
+  }
+  .testStyle {
+    font-size: 8px;
+  }
+  .icon_style {
+    width: 13px;
+    height: 13px;
+  }
+  .main_third {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 `

@@ -45,4 +45,9 @@ padding-top: 120px;
 }
 
 
+@media only screen and (max-width: 930px) {
+  display: none;
+}
+
+
 `

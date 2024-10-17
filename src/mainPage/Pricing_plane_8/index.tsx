@@ -12,7 +12,6 @@ const Pricing_planeComponent = () => {
            <div className='Montly_yearly_contaniner'>
             <p className='Montly_style'>Monthly</p>
             <p className='Yearly_style'>Yearly</p>
-
            </div>
        </div>
 

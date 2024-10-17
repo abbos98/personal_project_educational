@@ -1,10 +1,8 @@
  import styled from "styled-components";
 
 export const Main_get = styled.div`
- 
   align-self: center;
   justify-content: space-between;
-  padding-top: 120px;
   display: flex;
   justify-content: center;
   background-color:  #0B0B0B;
@@ -12,7 +10,8 @@ export const Main_get = styled.div`
 
 
 .all_main_wrapper {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   display: flex;
 }
 .left_side {
@@ -24,7 +23,7 @@ export const Main_get = styled.div`
 
 }
 .get_in_touch {
- color: var(--Dark-Primary, #EEFB13);
+  color: var(--Dark-Primary, #EEFB13);
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
@@ -34,7 +33,8 @@ export const Main_get = styled.div`
   text-transform: uppercase;
 }
 .Your_it {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   color: var(--White, #FFF);
   font-family: "Syne", sans-serif;
   font-size: 40px;
@@ -54,7 +54,8 @@ export const Main_get = styled.div`
   align-items: center;
 }
 .round {
-  width: 40px;
+  max-width: 40px;
+  width: 100%;
   height: 40px;
   stroke-width: 1px;
   stroke: var(--100, #F7F9FF);
@@ -85,10 +86,10 @@ export const Main_get = styled.div`
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
-  /* line-height: 30px;  */
 }
 .right_side {
-  width: 410px;
+  max-width: 410px;
+  width: 100%;
   height: 450px;
   border-radius: 20px;
   border: 1px solid var(--Dark-Primary, #EEFB13);
@@ -119,7 +120,6 @@ export const Main_get = styled.div`
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  /* line-height: 50px;  */
   margin-top: 10px;
 }
 .input_wrapper {
@@ -134,7 +134,8 @@ export const Main_get = styled.div`
   justify-content: space-between;
 }
 .First_name_style {
-  width: 180px;
+  max-width: 180px;
+  width: 100%;
   height: 50px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.10);
@@ -149,7 +150,8 @@ export const Main_get = styled.div`
   padding-left: 20px;
 }
 .Your_Phone_style {
-  width: 180px;
+  max-width: 180px;
+  width: 100%;
   height: 50px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.10);
@@ -168,7 +170,8 @@ export const Main_get = styled.div`
   justify-content: space-between;
 }
 .Phone_Number_style {
-  width: 180px;
+  max-width: 180px;
+  width: 100%;
   height: 50px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.10);
@@ -183,7 +186,8 @@ export const Main_get = styled.div`
   padding-left: 20px;
 }
 .Chose_a_Opation {
-  width: 180px;
+  max-width: 180px;
+  width: 100%;
   height: 50px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.10);
@@ -201,7 +205,8 @@ export const Main_get = styled.div`
 
 }
 .text_area {
-  width: 380px;
+  max-width: 380px;
+  width: 100%;
   height: 118px;
   flex-shrink: 0;
   border-radius: 20px;
@@ -221,7 +226,8 @@ export const Main_get = styled.div`
 }
 .sent_now {
   display: flex;
-  width: 380px;
+  max-width: 380px;
+  width: 100%;
   height: 60px;
   padding: 20px 30px;
   justify-content: center;
@@ -238,6 +244,7 @@ export const Main_get = styled.div`
   text-transform: uppercase;
   margin-top: 20px;
   cursor: pointer;
+  border: none;
 }
 .sent_now:hover {
     background-color: #F7F9FF;
@@ -247,4 +254,28 @@ export const Main_get = styled.div`
     transform: scale(1.02);
    
 }
+
+@media only screen and (max-width: 1240px) {
+
+}
+
+@media only screen and (max-width: 930px) {
+  padding-top: 100px;
+}
+.all_main_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.left_side {
+  width: 400px;
+}
+
+
+
+
+
+
 `
