@@ -261,7 +261,7 @@ export const Main_get = styled.div`
 
 @media only screen and (max-width: 930px) {
   padding-top: 100px;
-}
+
 .all_main_wrapper {
   display: flex;
   flex-direction: column;
@@ -273,7 +273,7 @@ export const Main_get = styled.div`
   width: 400px;
 }
 
-
+}
 
 
 

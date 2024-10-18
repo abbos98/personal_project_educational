@@ -1,8 +1,9 @@
 import { Wrapper_servises } from './servisesStyle';
 import "../Servises/servisesadd.css";
-import Six_boxes_contaniner from './6-boxes_1';
+
 import Some_faq_ques from './Some_Faq_Question';
 import Work_witch_us_Component from '../AboutUs/work_with_us';
+import Six_boxes_Component from './six_boxes_1';
 
 
 
@@ -14,9 +15,10 @@ const Servises_main = () => {
             <p className='home_style'>Home / Service</p>
         </div>
  
-      <Six_boxes_contaniner />
+      <Six_boxes_Component />
       <Some_faq_ques />
       <Work_witch_us_Component />
+      
 
 
 

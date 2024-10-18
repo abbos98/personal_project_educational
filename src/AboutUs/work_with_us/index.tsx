@@ -3,6 +3,7 @@ import one from '../../assets/D.png';
 import SmsIcon from '@mui/icons-material/Sms';
 import EditLocationIcon from '@mui/icons-material/EditLocation';
 import right from '../../assets/right_a.svg';
+import x_icon from '../../assets/x_icon.svg';
 
 const Work_witch_us_Component = () => {
   return (
@@ -27,7 +28,7 @@ const Work_witch_us_Component = () => {
                </div>
                <div className='sns_wrapper'>
              <div className='facebook'></div>
-             <div className='facebook'></div>
+             <div className='facebook'><img src={x_icon} alt='x_image'/></div>
              <div className='facebook'></div>
              <div className='facebook'></div>
           </div>

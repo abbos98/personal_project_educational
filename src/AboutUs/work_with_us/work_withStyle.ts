@@ -14,6 +14,7 @@ padding-top: 100px;
 .firts_line {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .work_with_us {
   font-feature-settings: 'liga' off, 'clig' off;
@@ -297,7 +298,7 @@ padding-top: 100px;
   justify-content: center;
 }
 .firts_line {
-  max-width: 600px;
+
   width: 100%;
   display: flex;
   justify-content: center;
