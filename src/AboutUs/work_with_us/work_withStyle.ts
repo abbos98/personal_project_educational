@@ -291,7 +291,6 @@ padding-top: 100px;
 }
 @media only screen and (max-width:930px) {
 
-
 .main_main {
   display: flex;
   flex-direction: column;

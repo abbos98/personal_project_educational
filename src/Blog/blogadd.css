@@ -1,0 +1,17 @@
+.main_image_top {
+  background-image: url(..//assets/working-another-job.jpeg);
+  width: 100%;
+  height: 400px;
+  
+}
+
+
+.image_top {
+    background-image: url(../assets/Pelajari-Jenis-Meeting-Berdasarkan-Tujuannya.jpg);
+    width: 500px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+}

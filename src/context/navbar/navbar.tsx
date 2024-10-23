@@ -31,14 +31,14 @@ const NavbarComponent = () => {
          <a href='#Services' className='testStyle'>Services</a>
             <KeyboardArrowDownIcon className='icon_style'/>
          </div></NavLink>
-         <div className='button_wrap'>
+         <NavLink to={"/project"} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Projects' className='testStyle'>Projects</a>
             <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
-         <div className='button_wrap'>
+         </div></NavLink>
+         <NavLink to={"/blog"} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Blog' className='testStyle'>Blog</a>
             <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
+         </div></NavLink>
          <div className='button_wrap'>
          <a href='#Page' className='testStyle'>Page</a>
             <KeyboardArrowDownIcon className='icon_style'/>

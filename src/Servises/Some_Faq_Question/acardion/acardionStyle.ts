@@ -7,13 +7,34 @@ display: flex;
 flex-direction: column;
 gap: 25px;
 
+.wraepper_in { 
 
-.line {
-    width: 100%;
-    height: 1px;
-    background-color: black;
+  border-radius: 40px;
+}
+.some {
+  border-radius: 20px;
+}
+.icon_style {
+  color: white;
 }
 .text {
-    font-size: 13px;
+  color: white;
+  font-family: "Syne", sans-serif;
 }
+.long_style {
+  color: white;
+  font-family: "Syne", sans-serif;
+}
+.text {
+  color: white;
+  font-family: "Syne", sans-serif;
+}
+.long_text {
+  color: white;
+  font-family: "Syne", sans-serif;
+}
+.is_social {
+  border-radius: 20px;
+}
+
 `

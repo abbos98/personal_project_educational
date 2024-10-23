@@ -1,0 +1,36 @@
+.one_Style_wrapper {
+    background-image: url(../../assets/project_first.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two_Style_wrapper {
+    background-image: url(../../assets/project_second.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three_Style_wrapper {
+  background-image: url(../../assets//project_third.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four_Style_wrapper {
+  background-image: url(../../assets/project_fourth.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.five_Style_wrapper {
+  background-image: url(../../assets/project_fifth.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.six_Style_wrapper {
+  background-image: url(../../assets/project_sixth.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

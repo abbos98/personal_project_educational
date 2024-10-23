@@ -7,7 +7,7 @@ const Some_faq_ques = () => {
     <Wrapper_question>
 <div className='main_wrapper'>
        <div className='text_wrapper'>
-         <p className='some_style'>Some Faq Question</p>
+         <p className='some_style'>Some FAQ Question</p>
        </div>
 
 

@@ -11,8 +11,6 @@ import CaruselComponent from "./Our_Team_7";
 import Get_in_TouchComponent from "./Get_in_touch_11";
 import TstComponent from "./A_digital_10";
 import Footer from "../context/footbar/footer";
-import MultipleItems from "./carusel";
-
 
 
 const MainPageComponent = () => {
@@ -25,13 +23,12 @@ const MainPageComponent = () => {
   <NoteWorth_component />
   <Lates_galleryComponent />
   <CaruselComponent />
-  <MultipleItems />
 
   
   <Pricing_planeComponent />
  
   <Resent_updatesComponent />
-   <TstComponent />
+  <TstComponent />
   <Get_in_TouchComponent />
 
   

@@ -1,0 +1,8 @@
+.wrapper_main_image {
+    background-image: url(../../assets//working-another-job.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,53 +1,60 @@
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
 import { Main_acardion } from './acardionStyle';
 
 export default function AccordionUsage() {
   return (
     <Main_acardion>
-      <Accordion defaultExpanded>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+      <Accordion className='wraepper_in' defaultExpanded sx={{
+        backgroundColor: "#171717",
+        borderRadius: "20px"
+        
+      }}>
+        <AccordionSummary className='some'
+          expandIcon={<ExpandMoreIcon className='icon_style' />}
           aria-controls="panel1-content"
           id="panel1-header"
         >
         <p className='text'>What is the importance of SEO in digital marketing?</p>
         </AccordionSummary>
-        <AccordionDetails>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+        <AccordionDetails className='long_style'>
+        <p className='long_text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </AccordionDetails>
       </Accordion>
-      <Accordion >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2-content"
-          id="panel2-header"
+      <Accordion sx={{
+        backgroundColor: "#171717",
+        borderRadius: "20px"
+        
+      }}>
+        <AccordionSummary className='ggg'
+          expandIcon={<ExpandMoreIcon className='icon_style' />}
+          aria-controls="panel1-content"
+          id="panel1-header"
         >
-         How can I start digital marketing for my business?
+        <p className='text'>How can I start digital marketing for my business?</p>
         </AccordionSummary>
-        <AccordionDetails>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+        <AccordionDetails >
+        <p className='long_text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3-content"
-          id="panel3-header"
+      <Accordion sx={{
+        backgroundColor: "#171717",
+        borderRadius: "20px"
+      
+        
+      }}>
+        <AccordionSummary className='ggg'
+          expandIcon={<ExpandMoreIcon className='icon_style' />}
+          aria-controls="panel1-content"
+          id="panel1-header"
         >
-        Is social media marketing part of digital marketing?
+        <p className='text'>Is social media marketing part of digital marketing?</p>
         </AccordionSummary>
-        <AccordionDetails>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+        <AccordionDetails className='sss'>
+        <p className='long_text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </AccordionDetails>
-        <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
-        </AccordionActions>
       </Accordion>
     </Main_acardion>
   );
