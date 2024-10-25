@@ -1,0 +1,8 @@
+.main_image_Contact {
+    background-image: url(../assets/students-studying-together-stockcake.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

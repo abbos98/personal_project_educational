@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const Inovation_Digital_wrapper = styled.div`
-
-  background-color:  #171717;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-bottom: 100px;
+background-color:  #171717;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding-bottom: 100px;
  
 .Main_contaniner {
   display: flex;
@@ -105,16 +104,14 @@ export const Inovation_Digital_wrapper = styled.div`
   opacity: 0.6;
 }
 
-
 @media only screen and (max-width: 1240px) {
 
-}
 .Main_contaniner {
   width: 900px;
+ }
 }
 
 @media only screen and (max-width: 930px) {
-
 
 .first_line {
   display: flex;
@@ -154,6 +151,19 @@ export const Inovation_Digital_wrapper = styled.div`
  width: 500px;
  height: 350px;
 }
+
+}
+@media only screen and (max-width: 610px) {
+
+
+.first_line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second_div {
+  margin: 0px;
+ }
 
 }
 `

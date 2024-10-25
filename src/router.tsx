@@ -10,6 +10,7 @@ import NavbarComponent from './context/navbar/navbar';
 import Not_found_Component from './NotFound-404';
 import Register_Component from './auth/register';
 import Blog_Component from './Blog';
+import Contact_Component from './Contact';
 
 
 const RouterComponent = () => {
@@ -30,6 +31,8 @@ const navbarComponent = location.pathname === "/login" || location.pathname === 
       <Route path = {"/projectDetail"} element = {< Project_Detail_Component />} />
       <Route path = {"/register"} element = {<Register_Component />} />
       <Route path = {"/blog"} element = {<Blog_Component />} />
+      <Route path = {"/contact"} element = {<Contact_Component />} />
+
      
     </Routes>
     </>

@@ -43,10 +43,10 @@ const NavbarComponent = () => {
          <a href='#Page' className='testStyle'>Page</a>
             <KeyboardArrowDownIcon className='icon_style'/>
          </div>
-         <div className='button_wrap'>
+         <NavLink to={"/contact"} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Contact' className='testStyle'>Contact</a>
             <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
+         </div></NavLink>
 
          <div className='login_and_cart_wrapper'>
            <div className='menu_wrapper'><AnchorTemporaryDrawer /></div>
