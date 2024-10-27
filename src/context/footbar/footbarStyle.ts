@@ -90,13 +90,45 @@ background: var(--700, #171717);
   display: flex;
   gap: 20px;
 }
+
 .facebook {
   max-width: 30px;
   width: 100%;
   height: 30px;
   border-radius: 20px;
   border: 1px solid var(--200, #CCC);
-  opacity: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.facebook:hover {
+ transform: scale(1.050);
+ border: 1px solid yellow;
+}
+.facebook:active{
+  transform: scale(1.1);
+}
+.facebook_sty {
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+.in_style {
+  color: white;
+  color: var(--White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+}
+.telegram_style {
+  color: white;
+  width: 20px;
+  height: 20px;
 }
 .long_text {
   max-width: 230px;

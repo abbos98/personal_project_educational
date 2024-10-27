@@ -5,6 +5,9 @@ import { NavLink } from 'react-router-dom';
 import SmsIcon from '@mui/icons-material/Sms';
 import EditLocationIcon from '@mui/icons-material/EditLocation';
 import right from '../../assets/right_a.svg';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import x_icon from '../../assets/x_icon.svg';
 
 const Footer = () => {
   return (
@@ -21,35 +24,35 @@ const Footer = () => {
         </div>
       
         <div className='texts_warpper'>
-        <NavLink to={'/'}><div className='button_wrap'>
+        <NavLink to={'/'} style={{textDecoration: "none"}}><div className='button_wrap'>
             <a href='#home' className='testStyle'>Home</a>
             <KeyboardArrowDownIcon className='icon_style'/>
          </div></NavLink>
-         <NavLink to={'/aboutus'}>
+         <NavLink to={'/aboutus'} style={{textDecoration: "none"}}>
          <div className='button_wrap'>
          <a href='#About Us' className='testStyle'>About Us</a>
             <KeyboardArrowDownIcon className='icon_style'/>
          </div></NavLink>
-         <div className='button_wrap'>
+         <NavLink to={'/servises'} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Services' className='testStyle'>Services</a>
             <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
-         <div className='button_wrap'>
+         </div></NavLink>
+         <NavLink to={'/project'} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Projects' className='testStyle'>Projects</a>
             <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
-         <div className='button_wrap'>
+         </div></NavLink>
+         <NavLink to={'/blog'} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Blog' className='testStyle'>Blog</a>
             <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
+         </div></NavLink>
          <div className='button_wrap'>
          <a href='#Page' className='testStyle'>Page</a>
             <KeyboardArrowDownIcon className='icon_style'/>
          </div>
-         <div className='button_wrap'>
+         <NavLink to={'/contact'} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Contact' className='testStyle'>Contact</a>
             <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
+         </div></NavLink>
         </div>
    </div>
 
@@ -62,10 +65,10 @@ const Footer = () => {
       <div className='center_text_wrapper'>
           <p className='follow_us'>Follow Us</p>
           <div className='sns_wrapper'>
-             <div className='facebook'></div>
-             <div className='facebook'></div>
-             <div className='facebook'></div>
-             <div className='facebook'></div>
+             <div className='facebook'><FacebookIcon className='facebook_sty'/></div>
+             <div className='facebook'><img src={x_icon} alt='x_image'/></div>
+             <div className='facebook'><p className='in_style'>in</p></div>
+             <div className='facebook'><TelegramIcon className='telegram_style'/></div>
           </div>
           <p className='long_text'>It is a long established fact that a reader will be distracted</p>
 

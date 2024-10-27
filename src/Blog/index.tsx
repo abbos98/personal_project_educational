@@ -1,9 +1,5 @@
 import { Wrapper_blog } from './blogStyle';
 import "../Blog/blogadd.css";
-import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
-import PermIdentityIcon from '@mui/icons-material/PermIdentity';
-import FolderIcon from '@mui/icons-material/Folder';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Left_side_Component from './left_side';
 import Right_side_Component from './right_side';
 

@@ -13,7 +13,7 @@ height: 2500px;
   justify-content: center;
 }
 .blog_style {
-  color: black;
+  color: white;
   text-align: center;
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -22,10 +22,10 @@ height: 2500px;
   font-weight: 700;
   line-height: 69.95px; 
 }.home_style {
-   color: black;
+  color: white;
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
-  font-size: 22.125px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 28.8px; 

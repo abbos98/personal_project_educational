@@ -5,12 +5,10 @@ background: var(--700, #171717);
 display: flex;
 justify-content: center;
 padding-top: 100px;
-height: 1000px;
-
+padding-bottom: 100px;
 .OurServise_main {
   max-width: 900px;
   width: 100%;
-  height: 700px;
 }
 .Top_texts_wrapper {
   display: flex;
@@ -66,21 +64,18 @@ height: 1000px;
   flex-direction: column;
   justify-content: space-around;
   cursor: pointer;
- 
 }
 .box_style:hover {
   transform: translateY(-10px);
   transition-duration: 0.5s;
   border: 1px solid yellow;
-  
 }
 .box_style:active{
-    transform: scale(1.1);
-    /* background-color: red; */
-  }
-  .Murodil_Wrapper {
+  transform: scale(1.1);
+}
+.Murodil_Wrapper {
     
-  }
+}
 .Murodil_teacher {
   position: absolute;
   margin: 20px 0px -20px 2px;
@@ -149,7 +144,7 @@ height: 1000px;
 }
 
 @media only screen and (max-width: 1240px) {
-  height: 1450px;
+  /* height: 1450px; */
 
 .OurServise_main {
   width: 750px;
@@ -163,29 +158,33 @@ height: 1000px;
   max-width: 1000px;
   height: 250px;
  }
- 
-}
-@media only screen and (max-width: 930px) {
-height: 2350px;
 
+}
+
+@media only screen and (max-width: 830px) {
+height: 2200px;
+
+
+.long_texts_style {
+
+}
 .OurServise_main {
-  width: 400px;
+  
+}
+.Top_texts_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.Our_Servises_style {
+
+}
+.long_texts_style {
+
 }
 .boxes_wrapper {
   display: grid;
   grid-template-areas: 'a';
   gap: 50px;
-}
-.Our_Servises_style {
-  color: var(--White, #FFF);
-font-feature-settings: 'liga' off, 'clig' off;
-
-/* Body/M */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
 }
 .long_texts_style {
   width: 200px;
@@ -196,6 +195,39 @@ line-height: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+}
+}
+@media only screen and (max-Width: 430px) {
+
+
+.OurServise_main {
+  width: 380px;
+}
+
+.Top_texts_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.Our_Servises_style {
+  color: var(--White, #FFF);
+  font-family: "Syne", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}  
+.long_texts_style {
+  max-width: 210px;
+  width: 100%;
+  color: var(--White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+  text-align: center;
 }
 }
 

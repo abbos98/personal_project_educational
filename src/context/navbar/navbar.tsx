@@ -49,10 +49,9 @@ const NavbarComponent = () => {
          </div></NavLink>
 
          <div className='login_and_cart_wrapper'>
-           <div className='menu_wrapper'><AnchorTemporaryDrawer /></div>
            <NavLink to={"/login"}><LoginIcon className='login_style'/></NavLink>
            <div className='payment_style'><PaymentIcon /></div>
-          
+           <div className='menu_wrapper'><AnchorTemporaryDrawer /></div>
          </div>
       </div>
 

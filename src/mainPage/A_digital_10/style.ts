@@ -106,13 +106,14 @@ export const Sometihing = styled.div`
   opacity: 0.9;
 }
 .arrow_wrapper {
-  gap: 20px;
   display: flex;
+  gap: 20px;
 }
 .left {
   max-width: 60px;
   width: 100%;
   cursor: pointer;
+  margin-left: -30px;
 }
 .right {
   max-width: 60px;
@@ -139,11 +140,28 @@ export const Sometihing = styled.div`
   display: flex;
   justify-content: center;
   margin-left: 30px;
+  margin-top: -60px;
 
 }
 
 
 
+}
+@media only screen and (max-width: 430px) {
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left_side {
+  width: 390px;
+
+}
+.right_side {
+  width: 360px;
+  margin-left: 0px;
+}
 }
 `
 

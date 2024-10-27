@@ -89,7 +89,7 @@ padding-top: 100px;
 }
 .sns_wrapper {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 .facebook {
   max-width: 30px;
@@ -97,10 +97,41 @@ padding-top: 100px;
   height: 30px;
   border-radius: 20px;
   border: 1px solid var(--200, #CCC);
-  opacity: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.facebook:hover {
+ transform: scale(1.050);
+ border: 1px solid yellow;
+}
+.facebook:active{
+  transform: scale(1.1);
+}
+.facebook_sty {
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+.in_style {
+  color: white;
+  color: var(--White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+}
+.telegram_style {
+  color: white;
+  width: 20px;
+  height: 20px;
 }
 .Company_wrapper {
-  max-width: 130px;
+  max-width: 140px;
   width: 100%;
   height: 250px;
   border-radius: 20px;
@@ -134,6 +165,9 @@ padding-top: 100px;
 .text_style_com:hover {
     text-decoration: underline;
 }
+.text_style_com:active {
+  transform: scale(1.050);
+}
 .Company_wrapper_two {
   max-width: 220px;
   width: 100%;
@@ -145,13 +179,13 @@ padding-top: 100px;
   flex-direction: column;
   padding: 10px;
 }
-.company_style {
-
-}
 .sms_wrapper {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+.sms_wrapper:active {
+  transform: scale(1.050);
 }
 .sms_icon {
   color: yellow;
@@ -176,6 +210,9 @@ padding-top: 100px;
   display: flex;
   align-items: start;
   gap: 5px;
+}
+.location_wrapper:active {
+  transform: scale(1.050);
 }
 .location_style {
   color: yellow;
@@ -234,6 +271,7 @@ padding-top: 100px;
   border: 1px solid yellow;
   padding-left: 20px;
   cursor: pointer;
+  color: white;
 }
 .but_yellow {
   display: flex;

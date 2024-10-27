@@ -11,6 +11,9 @@ import Not_found_Component from './NotFound-404';
 import Register_Component from './auth/register';
 import Blog_Component from './Blog';
 import Contact_Component from './Contact';
+import Team_Component from './Team';
+import ScrollToTop from './context/scroll';
+import TeamDetail_component from './Team/TeamDetail';
 
 
 const RouterComponent = () => {
@@ -19,9 +22,12 @@ const navbarComponent = location.pathname === "/login" || location.pathname === 
 
   return (
     <>
+    <ScrollToTop />
     {!navbarComponent && <NavbarComponent />}
+
     <Routes>
-      <Route path = {"*"} element = {<Not_found_Component />} />
+
+      {/* <Route path = {"*"} element = {<Not_found_Component />} /> */}
       <Route path = {"/"} element = {<MainPageComponent />} />
       <Route path = {"/aboutus"} element = {<About_Us_Component />} />
       <Route path = {"/servises"} element = {<Servises_main />} />
@@ -32,8 +38,10 @@ const navbarComponent = location.pathname === "/login" || location.pathname === 
       <Route path = {"/register"} element = {<Register_Component />} />
       <Route path = {"/blog"} element = {<Blog_Component />} />
       <Route path = {"/contact"} element = {<Contact_Component />} />
+      <Route path = {"/team"} element = {<Team_Component />} />
+      <Route path = {"/teamdetail"} element = {<TeamDetail_component />} />
 
-     
+      
     </Routes>
     </>
   )

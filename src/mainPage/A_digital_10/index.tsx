@@ -5,6 +5,7 @@ import StarIcon from '@mui/icons-material/Star';
 import person from '../../assets/person_image_five.jpg';
 import left from '../../assets/Arrow 2.svg';
 import  right from '../../assets/Arrow 1.svg';
+import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 
 const TstComponent = () => {
   return (

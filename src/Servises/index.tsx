@@ -1,6 +1,5 @@
 import { Wrapper_servises } from './servisesStyle';
 import "../Servises/servisesadd.css";
-
 import Some_faq_ques from './Some_Faq_Question';
 import Work_witch_us_Component from '../AboutUs/work_with_us';
 import Six_boxes_Component from './six_boxes_1';

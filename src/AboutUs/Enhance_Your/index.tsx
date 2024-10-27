@@ -4,6 +4,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import box_image_two from '../../assets/image_box.jpg';
 import box_image_three from '../../assets/third_box_image.jpg';
 import box_image_four from '../../assets/Pelajari-Jenis-Meeting-Berdasarkan-Tujuannya.jpg';
+import { NavLink } from 'react-router-dom';
 
 const Enhance_component = () => {
   return (
@@ -27,10 +28,10 @@ const Enhance_component = () => {
                <div className='third_line'>
                  <img className='box_image_style' src={box_image_one} alt='image'/>
                </div>
-               <div className='fourth_line'>
+               <NavLink to={"/projectDetail"} style={{textDecoration: "none"}}><div className='fourth_line'>
                  <button className='button_style'>Read More</button>
                  <ArrowForwardIcon className='arrow_style'/>
-               </div>
+               </div></NavLink>
             </div>
             <div className='box_style'>
                <div className='first_line'>
@@ -43,10 +44,10 @@ const Enhance_component = () => {
                <div className='third_line'>
                  <img className='box_image_style' src={box_image_two} alt='image'/>
                </div>
-               <div className='fourth_line'>
+               <NavLink to={"/projectDetail"} style={{textDecoration: "none"}}><div className='fourth_line'>
                  <button className='button_style'>Read More</button>
                  <ArrowForwardIcon className='arrow_style'/>
-               </div>
+               </div></NavLink>
             </div>
             <div className='box_style'>
                <div className='first_line'>
@@ -59,10 +60,10 @@ const Enhance_component = () => {
                <div className='third_line'>
                  <img className='box_image_style' src={box_image_three} alt='image'/>
                </div>
-               <div className='fourth_line'>
+               <NavLink to={"/projectDetail"} style={{textDecoration: "none"}}><div className='fourth_line'>
                  <button className='button_style'>Read More</button>
                  <ArrowForwardIcon className='arrow_style'/>
-               </div>
+               </div></NavLink>
             </div>
             <div className='box_style'>
                <div className='first_line'>
@@ -75,10 +76,10 @@ const Enhance_component = () => {
                <div className='third_line'>
                  <img className='box_image_style' src={box_image_four} alt='image'/>
                </div>
-               <div className='fourth_line'>
+               <NavLink to={"/projectDetail"} style={{textDecoration: "none"}}><div className='fourth_line'>
                  <button className='button_style'>Read More</button>
                  <ArrowForwardIcon className='arrow_style'/>
-               </div>
+               </div></NavLink>
             </div>
          </div>
      </div>

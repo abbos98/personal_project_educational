@@ -13,7 +13,7 @@ height: 500px;
   align-items: center;
 }
 .servise_style {
-  color: black;
+  color: white;
   text-align: center;
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -23,7 +23,7 @@ height: 500px;
   line-height: 69.95px; 
 }
 .home_style {
-  color: black;
+  color: white;
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
   font-size: 22.125px;

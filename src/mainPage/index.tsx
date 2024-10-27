@@ -25,6 +25,7 @@ const MainPageComponent = () => {
   <CaruselComponent />
 
   
+
   <Pricing_planeComponent />
  
   <Resent_updatesComponent />

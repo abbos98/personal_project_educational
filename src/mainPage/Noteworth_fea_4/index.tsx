@@ -1,8 +1,8 @@
-import React from 'react'
 import { Noteworth_wrapper } from './noteStyle';
 import line_yellow from '../../assets/yellow_line.png';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import image from '../../assets/digital-marketing-agency.jpg'
+import { NavLink } from 'react-router-dom';
 
 
 const NoteWorth_component = () => {
@@ -11,7 +11,7 @@ const NoteWorth_component = () => {
           <div className='wrapper_texts'>
            <img src={line_yellow} alt='icon'/>
            <p className='noteworthy_style'>Noteworthy Feature</p>
-        </div>
+          </div>
 
 
         <div className='long_boxes_wrapper'>
@@ -26,10 +26,10 @@ const NoteWorth_component = () => {
                   <p className='bottom_text'>Digital marketing involves promoting the a products or digital technolog Digital of am marketing Digital marketing involves</p>
                </div>
           </div>
-               <div className='right_side'>
+               <NavLink to={"/project"} style={{textDecoration: "none"}}><div className='right_side'>
                 <button className='but_style'>Read More</button>
                 <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-               </div>
+               </div></NavLink>
                
              </div>
 
@@ -45,13 +45,12 @@ const NoteWorth_component = () => {
                </div>
           </div>
           <img className='image_style' src={image} />
-               <div className='right_side'>
+           <NavLink to={"/project"} style={{textDecoration: "none"}}><div className='right_side'>
                 <button className='but_style'>Read More</button>
                 <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-               </div>
+               </div></NavLink>
              </div>
 
-            
              <div className='box_style'>
           <div className='num_text_wrapper'>
                <div className='left_side'>
@@ -63,10 +62,10 @@ const NoteWorth_component = () => {
                   <p className='bottom_text'>Digital marketing involves promoting the a products or digital technolog Digital of am marketing Digital marketing involves</p>
                </div>
           </div>
-               <div className='right_side'>
+               <NavLink to={"/project"} style={{textDecoration: "none"}}><div className='right_side'>
                 <button className='but_style'>Read More</button>
                 <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-               </div>
+               </div></NavLink>
              </div>
         </div>
 

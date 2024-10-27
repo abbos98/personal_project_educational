@@ -275,6 +275,21 @@ export const Main_get = styled.div`
 
 }
 
+@media only screen and (max-width: 430px) {
+.all_main_wrapper {
+
+}
+.left_side {
+  width: 370px;
+}
+.Your_it {
+  line-height: 50px;
+}
+.right_side {
+  width: 370px;
+}
+}
+
 
 
 

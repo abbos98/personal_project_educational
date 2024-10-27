@@ -1,8 +1,13 @@
 import { Main_carusel } from './CaruselStyle';
 import './CarouselAdd.css';
 import line_yellow from '../../assets/yellow_line.png';
+import { teamMember } from '../../mock/teamDate';
+import { NavLink } from 'react-router-dom';
 
 const CaruselComponent = () => {
+
+const data = teamMember.detail;
+console.log(data);
   return (
     <Main_carusel>
         <div className='iconYellow_text_wrap'>
@@ -10,7 +15,10 @@ const CaruselComponent = () => {
               <p className='Our_style'>Our Best Team</p>
          </div>
 
-        <div className='contanier'>
+
+
+        
+        <NavLink to={"/team"}><div className='contanier'>
             <div className='carousel'>
                <div className='image'>
                 <p>Michael Caine</p>
@@ -50,7 +58,7 @@ const CaruselComponent = () => {
                </div>
             </div>
         
-        </div>
+        </div></NavLink>
     </Main_carusel>
   )
 }

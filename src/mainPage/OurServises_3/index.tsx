@@ -4,6 +4,8 @@ import './OurServises.css';
 import second_icon from '../../assets/second_ICON.svg';
 import third_icon from '../../assets/third_icon.svg';
 import fourth_icon from '../../assets/fourth_icon.svg';
+import { NavLink } from 'react-router-dom';
+
 
 
 const OurServisesComponents = () => {
@@ -20,12 +22,11 @@ const OurServisesComponents = () => {
 
      <div className='boxes_wrapper'>
 
-       <div className='box_style'>
+       <NavLink to={"/readmore"} style={{textDecoration: "none"}}><div className='box_style'>
          <img className='icon_style' src={icon} alt='icon'/>
          <p className='Text_style_inside'>Web Design & Development</p>
-       </div>
-
-       <div className='box_style'>
+       </div></NavLink>
+       <NavLink to={"/readmore"} style={{textDecoration: "none"}}><div className='box_style'>
      
        <div className='Murodil_Wrapper'>
         <img className='Murodil_teacher' src={second_icon} />
@@ -36,29 +37,29 @@ const OurServisesComponents = () => {
           {/* <p className='Digital_style'>Digital Agency</p> */}
          </div>
           
-       </div>
-       <div className='box_style'>
+       </div></NavLink>
+       <NavLink to={"/readmore"} style={{textDecoration: "none"}}><div className='box_style'>
          <img className='icon_style' src={second_icon} alt='icon'/>
          <p className='Text_style_inside'>Digital Marketing</p>
-       </div>
-       <div className='box_style'>
+       </div></NavLink> 
+       <NavLink to={"/readmore"} style={{textDecoration: "none"}}><div className='box_style'>
          <img className='icon_style' src={third_icon} alt='icon'/>
          <p className='Text_style_inside'>Branding & Identity</p>
-       </div>
-       <div className='box_style'>
+       </div></NavLink> 
+       <NavLink to={"/readmore"} style={{textDecoration: "none"}}><div className='box_style'>
          <img className='icon_style' src={icon} alt='icon'/>
          <p className='Text_style_inside'>SEO Optimization</p>
-       </div>
-       <div className='box_style'>
+       </div></NavLink> 
+       <NavLink to={"/readmore"} style={{textDecoration: "none"}}><div className='box_style'>
          <img className='icon_style' src={fourth_icon} alt='icon'/>
          <p className='Text_style_inside'>Content Creation</p>
-       </div>
+       </div></NavLink> 
       
      </div>
 
-      <div className='video_ma'>
-        <div className='video_wrapper'></div>
-      </div>
+    
+   
+
     </div>
     </Main_Wrap_OurSrvises>
   )
