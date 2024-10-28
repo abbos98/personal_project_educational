@@ -1,6 +1,7 @@
 import { Wrapper_team } from './Style';
 import line_yellow from "../../assets/yellow_line.png";
 import "../../AboutUs/Our_Best_Team/bestTeamStyle.css";
+import { NavLink } from 'react-router-dom';
 
 const Our_team_Component = () => {
   return (
@@ -12,7 +13,15 @@ const Our_team_Component = () => {
           </div>
 
           <div className='team_wrapper'>
-              <div className='first_best'></div>
+              <NavLink to={'/team'} style={{textDecoration:"none"}}><div className='first_best'>
+                <p className='our_best_member'>Our best member</p>
+              </div></NavLink>
+              <NavLink to={'/team'} style={{textDecoration:"none"}}><div className='second_best'>
+                <p className='our_best_member_two'>Our best member</p>
+              </div></NavLink>
+              <NavLink to={'/team'} style={{textDecoration:"none"}}><div className='third_best'>
+                <p className='our_best_member'>Our best member</p>
+              </div></NavLink>
           </div>
        
     </Wrapper_team>

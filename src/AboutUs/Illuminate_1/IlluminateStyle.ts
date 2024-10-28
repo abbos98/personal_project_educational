@@ -8,7 +8,8 @@ display: flex;
 justify-content: center;
 
 .Main_illuminate {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   height: 725px;
 } 
 .first_line_vs_text {
@@ -18,19 +19,20 @@ justify-content: center;
   align-items: center;
 }
 .yellow_line {
-  width: 55px;
+  max-width: 55px;
+  width: 100%;
   height: 15px;
 }
 .text_style {
-  max-width: 800px;
+  max-width: 700px;
   width: 100%;
   color: var(--White, #FFF);
   text-align: center;
   font-family: "Syne", sans-serif;
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 72px; 
+  line-height: 50px; 
   padding-top: 10px;
 }
 .second_line_with_images {
@@ -43,7 +45,8 @@ justify-content: center;
 
 }
 .person_style {
-  width: 240px;
+  max-width: 240px;
+  width: 100%;
   height: 320px;
   border-radius: 30px;
   background: #D9D9D9;
@@ -62,24 +65,25 @@ justify-content: center;
   align-self: stretch;
 }
 .text_tab {
-  width: 390px;
+  max-width: 390px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; 
+  line-height: 22px; 
   opacity: 0.8;
 }
 .main_wrap_tel {
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
-
 .tel_wrap {
-  width: 50px;
+  max-width: 50px;
+  width: 100%;
   height: 50px;
   border-radius: 50%;
   background-color: #003300;
@@ -126,7 +130,8 @@ justify-content: center;
   cursor: pointer; 
 }
 .third_line {
-  width: 300px;
+  max-width: 260px;
+  width: 100%;
   height: 270px;
   border-radius: 20px;
   background: var(--700, #171717);
@@ -141,8 +146,6 @@ justify-content: center;
     margin-bottom: 10px;
   }
 }
-
-
 .wrapper_in {
   display: flex;
   flex-direction: column;
@@ -150,7 +153,8 @@ justify-content: center;
   align-items: center;
 }
 .roket_style {
-  width: 75px;
+  max-width: 75px;
+  width: 100%;
   height: 75px;
   margin-top: 20px;
 }
@@ -191,7 +195,53 @@ justify-content: center;
   line-height: 24px; 
   margin-top: 7px;
   padding: 0px 2px;
+  width: 200px;
+}
+@media only screen and (max-width: 930px) {
+
+
+.second_line_with_images {
+  
+}
+.third_line {
+  display: none;
 }
 
+}
+
+@media only screen and (max-width: 700px) {
+height: 1650px;
+
+.text_style {
+  width: 390px;
+}
+.second_line_with_images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inside_two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text_head {
+  text-align: center;
+}
+.text_tab {
+  width: 220px;
+  line-height: 20px;
+  margin: 5px;
+  text-align: center;
+}
+.main_wrap_tel {
+  display: flex;
+  justify-content: center;
+}
+.third_line {
+  display: flex;
+  flex-direction: column;
+}
+}
 
 `

@@ -39,10 +39,6 @@ const NavbarComponent = () => {
          <a href='#Blog' className='testStyle'>Blog</a>
             <KeyboardArrowDownIcon className='icon_style'/>
          </div></NavLink>
-         <div className='button_wrap'>
-         <a href='#Page' className='testStyle'>Page</a>
-            <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
          <NavLink to={"/contact"} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Contact' className='testStyle'>Contact</a>
             <KeyboardArrowDownIcon className='icon_style'/>
@@ -50,7 +46,7 @@ const NavbarComponent = () => {
 
          <div className='login_and_cart_wrapper'>
            <NavLink to={"/login"}><LoginIcon className='login_style'/></NavLink>
-           <div className='payment_style'><PaymentIcon /></div>
+           <NavLink to={"/cartshopping"}><div className='payment_style'><PaymentIcon /></div></NavLink>
            <div className='menu_wrapper'><AnchorTemporaryDrawer /></div>
          </div>
       </div>

@@ -1,8 +1,28 @@
 .first_best {
     background-image: url(../../assets/best_one.jpg);
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.second_best {
+    background-image: url(../../assets/second_formal.jpg);
+    width: 280px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.third_best {
+    background-image: url(../../assets/third_formal.jpg);
+    width: 280px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
 }

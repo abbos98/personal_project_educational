@@ -45,10 +45,6 @@ const Footer = () => {
          <a href='#Blog' className='testStyle'>Blog</a>
             <KeyboardArrowDownIcon className='icon_style'/>
          </div></NavLink>
-         <div className='button_wrap'>
-         <a href='#Page' className='testStyle'>Page</a>
-            <KeyboardArrowDownIcon className='icon_style'/>
-         </div>
          <NavLink to={'/contact'} style={{textDecoration: "none"}}><div className='button_wrap'>
          <a href='#Contact' className='testStyle'>Contact</a>
             <KeyboardArrowDownIcon className='icon_style'/>

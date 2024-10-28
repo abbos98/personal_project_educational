@@ -14,11 +14,12 @@ import Contact_Component from './Contact';
 import Team_Component from './Team';
 import ScrollToTop from './context/scroll';
 import TeamDetail_component from './Team/TeamDetail';
+import CartPage_component from './cart_page';
 
 
 const RouterComponent = () => {
 const location = useLocation();
-const navbarComponent = location.pathname === "/login" || location.pathname === "/register";
+const navbarComponent = location.pathname === "/login" || location.pathname === "/register" || location.pathname === "/cartshopping";
 
   return (
     <>
@@ -27,7 +28,7 @@ const navbarComponent = location.pathname === "/login" || location.pathname === 
 
     <Routes>
 
-      {/* <Route path = {"*"} element = {<Not_found_Component />} /> */}
+      <Route path = {"*"} element = {<Not_found_Component />} />
       <Route path = {"/"} element = {<MainPageComponent />} />
       <Route path = {"/aboutus"} element = {<About_Us_Component />} />
       <Route path = {"/servises"} element = {<Servises_main />} />
@@ -40,7 +41,7 @@ const navbarComponent = location.pathname === "/login" || location.pathname === 
       <Route path = {"/contact"} element = {<Contact_Component />} />
       <Route path = {"/team"} element = {<Team_Component />} />
       <Route path = {"/teamdetail"} element = {<TeamDetail_component />} />
-
+      <Route path = {"/cartshopping"} element = {< CartPage_component />} />
       
     </Routes>
     </>

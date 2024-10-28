@@ -4,12 +4,11 @@ import { teamMember } from '../../mock/teamDate';
 
 const TeamDetail_component = () => {
     // const { id } = useParams();
-    // const parseInt = id ? parseInt(id) : 0;
     // const data = teamMember.detail;
-    // console.log(data);
-    // console.log(id);
+    // // console.log(data);
+    // // console.log(id);
 
-    // const filterData = data.filter((value) => value.id === parseInt);
+    // const filterData = data.filter((value) => value.id === parseInt(id));
  
     // console.log(filterData);
     

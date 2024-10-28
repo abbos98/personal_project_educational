@@ -12,6 +12,7 @@ align-items: center;
 width: 900px;
 display: flex;
 align-items: center;
+justify-content: center;
 }
 .left_side {
  width: 550px;
@@ -39,7 +40,8 @@ align-items: center;
   line-height: 60px; 
 }
 .digital_style {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -56,7 +58,8 @@ align-items: center;
   padding-top: 30px;
 }
 .style_input {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 80px;
   border-radius: 20px;
   background: var(--900, #0B0B0B);
@@ -78,8 +81,6 @@ align-items: center;
   align-items: center;
   justify-content: center;
 }
-
-    
 .drive_style {
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
@@ -155,5 +156,85 @@ align-items: center;
   width: 1px;
   height: 75px;
   background: #FFF;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+.main_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.right_side {
+  display: flex;
+  justify-content: center;
+  margin-left: -5%;
+  margin-top: 20px;
+}
+.people_image_style {
+  width: 460px;
+  border-radius: 20px;
+}
+}
+
+@media only screen and (max-width: 940px) {
+
+.grade_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.line_in {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.Why_chose_wraepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why_style {
+
+}
+.grow_style {
+  text-align: center;
+  font-size: 36px;
+  width: 370px;
+  line-height: 50px;
+  margin-top: 10px;
+}
+.digital_style {
+  text-align: center;
+  width: 310px;
+  margin-top: 10px;
+}
+.style_input {
+  width: 350px;
+}
+.drive_style {
+  font-size: 15px;
+  line-height: 20px;
+  width: 180px;
+}
+.right_side {
+  display: flex;
+  margin: 0px;
+  padding-top: 40px;
+}
+.people_image_style {
+  width: 350px;
+}
 }
 `
