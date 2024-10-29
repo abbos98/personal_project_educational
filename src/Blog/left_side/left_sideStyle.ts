@@ -201,5 +201,16 @@ export const Wrapper_left = styled.div`
 
 }
 
+@media only screen and (max-width: 430px) {
+
+
+.image_top {
+  width: 360px;
+}
+.box_wrapper {
+  width: 400px;
+}
+
+}
 
 `

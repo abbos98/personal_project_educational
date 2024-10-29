@@ -12,6 +12,7 @@ padding-bottom: 120px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
 .icon_style {
   color: white;
@@ -29,6 +30,13 @@ padding-bottom: 120px;
 
 .wrapper_all {
   margin: 0px;
+}
+@media only screen and (max-width: 630px) {
+
+
+.wrapper_all {
+  width: 360px;
+}
 }
 }
 `

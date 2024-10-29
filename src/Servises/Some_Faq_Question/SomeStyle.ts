@@ -32,7 +32,7 @@ background-color:  #0B0B0B;
   gap: 50px;
 }
 .right_side_wrapper {
-
+  
 }
 .rigth_image {
   max-width: 450px;
@@ -55,8 +55,17 @@ height: 1100px;
 }
 @media only screen and (max-width: 430px) {
 
+.main_wrapper {
+  
+}
   .some_style {
     font-size: 40px;
+  }
+  .right_side_wrapper {
+    width: 380px;
+  }
+  .rigth_image {
+  
   }
 }
 

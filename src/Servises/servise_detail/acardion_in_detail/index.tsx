@@ -37,7 +37,7 @@ export default function AccordionDetail() {
          <p className='text'>How can I start digital marketing for my business?</p>
         </AccordionSummary>
         <AccordionDetails className=''>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+          <p className='long_text_style'> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </AccordionDetails>
       </Accordion>
       <Accordion sx={{

@@ -330,7 +330,7 @@ padding-top: 100px;
 @media only screen and (max-width:930px) {
 
 .rights {
-  background-color: red;
+
 }
 
 .main_main {
@@ -353,19 +353,24 @@ padding-top: 100px;
   display: none;
 }
 .main_third {
-
+  display: flex;
+  flex-direction: column;
 }
 .bottom_left {
-
+display: flex;
+justify-content: center;
 }
 .rights {
   font-size: 15px;
-  width: 170px;
+  width: 100%;
+  text-align: center;
 }
 .bottom_right {
-  gap: 5px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  
 }
 .texts_last_style {
   width: 110px;

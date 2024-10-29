@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper_right = styled.div`
 
-
 .right_side_main {
   margin-top: 120px;
+  
   max-width: 310px;
   width: 100%;
 }

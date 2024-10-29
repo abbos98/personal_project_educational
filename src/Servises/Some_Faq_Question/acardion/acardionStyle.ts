@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main_acardion = styled.div`
 
-width: 400px;
+width: 370px;
 display: flex;
 flex-direction: column;
 gap: 25px;

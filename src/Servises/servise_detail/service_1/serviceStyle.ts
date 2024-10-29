@@ -17,11 +17,12 @@ export const Wrapper_first = styled.div`
   
 }
 .image_style {
-  max-width: 560px;
+  max-width: 360px;
   width: 100%;
   height: 300px;
   border-radius: 20px;
   background: #D9D9D9;
+  
 }
 .texts_wrapper {
   padding-top: 25px;
@@ -30,10 +31,10 @@ export const Wrapper_first = styled.div`
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Syne", sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 10px; 
+  line-height: 30px; 
 }
 .long_text {
   max-width: 560px;
@@ -314,6 +315,7 @@ export const Wrapper_first = styled.div`
   font-weight: 700;
   line-height: 36px; 
   text-transform: capitalize;
+  padding-left: 45px;
 }
 
 /* ............................................. */
@@ -573,6 +575,9 @@ export const Wrapper_first = styled.div`
   grid-template-areas: 'a';
   justify-content: center;
   gap: 20px;
+}
+.inovate_text {
+  text-align: center;
 }
 }
 

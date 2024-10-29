@@ -73,7 +73,12 @@ height: 3600px;
 
 
 }
+@media only screen and (max-width: 430px) {
 
+.right_side {
+  
+}
+}
 
 
 

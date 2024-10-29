@@ -110,12 +110,12 @@ padding-top: 120px;
   gap: 5px;
 }
 .fourth_line:hover {
-    background-color: yellow;
+  background-color: yellow;
 button {
-    color: black;
+  color: black;
 }
 .arrow_style {
-    color: black;
+  color: black;
 }
 }
 .fourth_line:active {
@@ -135,10 +135,10 @@ button {
   width: 60px;
 }
 .arrow_style {
-    max-width: 15px;
-    width: 100%;
-    height: 15px;
-    color: white;
+  max-width: 15px;
+  width: 100%;
+  height: 15px;
+  color: white;
 }
 
 
@@ -153,17 +153,25 @@ button {
 
 
 }
-@media only screen and (max-width: 730px) {
-
+@media only screen and (max-width: 630px) {
 
 .grow_style {
-  max-width: 120px;
+  font-size: 10px;
+}
+
+.grow_style {
+  max-width: 90px;
   width: 100%;
   line-height: 20px;
 }
+.social_style {
+  font-size: 13px;
+  padding-top: 3px;
+}
 .digital_mar {
   width: 170px;
-  line-height: 20px;
+  line-height: 15px;
+  font-size: 12px;
 }
 .box_image_style {
   max-width: 130px;

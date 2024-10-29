@@ -323,6 +323,28 @@ align-items: center;
 }
 }
 
+@media only screen and (max-width: 430px) {
+
+.top_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.long_text_style {
+  text-align: center;
+  width: 350px;
+  font-size: 24px;
+}
+.smaller_text_style{
+  text-align: center;
+}
+.Get_an_appointment_wrapper {
+  width: 380px;
+}
+.image_style_map {
+  width: 380px;
+}
+}
 
 
 `

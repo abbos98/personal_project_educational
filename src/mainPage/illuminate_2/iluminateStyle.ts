@@ -329,6 +329,7 @@ export const Wrap_illuminate = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 .inside_one {
   display: flex;

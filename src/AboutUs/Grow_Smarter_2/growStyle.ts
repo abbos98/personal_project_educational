@@ -9,13 +9,15 @@ justify-content: center;
 align-items: center;
 
 .main_main {
-width: 900px;
-display: flex;
-align-items: center;
-justify-content: center;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .left_side {
- width: 550px;
+ max-width: 550px;
+ width: 100%;
 }
 .Why_chose_wraepper {
 
@@ -111,13 +113,15 @@ justify-content: center;
 
 }
 .people_image_style {
-  width: 531px;
+  max-width: 531px;
+  width: 100%;
   height: 500px;
   border-radius: 0px 0px 0px 20px;
   background: #D9D9D9;
 }
 .grade_wrapper {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   height: 400px;
   display: flex;
   align-items: center;
@@ -158,8 +162,14 @@ justify-content: center;
   background: #FFF;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1150px) {
 
+.left_side {
+  width: 900px;
+}
+.grade_wrapper {
+
+}
 .main_main {
   display: flex;
   flex-direction: column;
@@ -176,23 +186,24 @@ justify-content: center;
   width: 460px;
   border-radius: 20px;
 }
-}
-
-@media only screen and (max-width: 940px) {
-
-
 .grade_wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 0px;
 }
 .line_in {
   display: none;
 }
 }
+@media only screen and (max-width: 750px) {
 
-@media only screen and (max-width: 600px) {
 
+.left_side {
+width: 100%;
+}
+.people_image_style {
+  background-color: yellow;
+}
 .left_side {
   display: flex;
   flex-direction: column;
@@ -239,4 +250,5 @@ justify-content: center;
   width: 350px;
 }
 }
+
 `

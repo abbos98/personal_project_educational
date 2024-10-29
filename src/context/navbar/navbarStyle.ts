@@ -38,6 +38,7 @@ export const Wrapper_navbar = styled.div`
   display: flex;
   align-items: center;
   gap: 13px;
+  margin-left: 20px;
 }
 .button_wrap {
   display: flex;
@@ -125,7 +126,7 @@ export const Wrapper_navbar = styled.div`
 
 
 @media only screen and (max-width: 930px) {
-
+padding-bottom: 30px;
 
 .wrapper_all_side {
   display: flex;
