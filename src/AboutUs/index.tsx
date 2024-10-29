@@ -2,7 +2,7 @@ import { Wrapper_about } from './aboutUsStyle';
 import '../AboutUs/Aboutadd.css';
 import Illuminate_component from './Illuminate_1';
 import Grow_Smarter_Component from './Grow_Smarter_2';
-import Enhance_component from './Enhance_Your';
+import Enhance_component from './Enhance_Your_3';
 import Our_team_Component from './Our_Best_Team';
 import Work_witch_us_Component from './work_with_us';
 

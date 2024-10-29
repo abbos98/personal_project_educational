@@ -10,7 +10,7 @@ export const Wrapper_pro_Detail = styled.div`
   align-items: center;
 }
 .project_style {
-  color: black;
+  color: white;
   text-align: center;
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
@@ -20,7 +20,7 @@ export const Wrapper_pro_Detail = styled.div`
   line-height: 69.95px; 
 }
 .project_home {
-  color: black;
+  color: white;
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
   font-size: 22.125px;

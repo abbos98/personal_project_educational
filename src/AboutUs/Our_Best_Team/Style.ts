@@ -23,7 +23,8 @@ align-items: center;
   line-height: 72px; 
 }
 .team_wrapper {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
@@ -57,7 +58,35 @@ align-items: center;
   line-height: 40px;
 }
 
+@media only screen and (max-width: 930px) {
+ 
+.team_wrapper {
+  display: grid;
+  grid-template-areas: "a a";
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.third_best {
+  margin-left: 55%;
+}
+}
 
+@media only screen and (max-width: 620px) {
+
+.noteworthy_style {
+  line-height: 40px;
+  margin-top: 15px;
+}
+.team_wrapper {
+  display: grid;
+  grid-template-areas: "a";
+  justify-content: center;
+}
+.third_best {
+  margin-left: 0px;
+}
+}
 
 
 `

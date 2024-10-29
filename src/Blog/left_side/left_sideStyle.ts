@@ -17,12 +17,11 @@ export const Wrapper_left = styled.div`
   gap: 40px;
 }
 .wid {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 } 
 .image_top {
   border-radius: 20px;
@@ -201,5 +200,6 @@ export const Wrapper_left = styled.div`
 .second_images {
 
 }
+
 
 `

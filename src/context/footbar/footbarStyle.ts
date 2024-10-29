@@ -9,10 +9,10 @@ background: var(--700, #171717);
 .main_main {
   max-width: 900px;
   width: 100%;
-  height: 621px;
+  height: 500px;
 }
 .main_first {
-  padding-top: 70px;
+  padding-top: 40px;
 }
 .left_side_top {
   display: flex;
@@ -304,16 +304,9 @@ background: var(--700, #171717);
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 1240px) {
- padding: 0px 30px;
-
-
-
-}
 
 @media only screen and (max-width: 930px) {
-
-
+padding: 0px 20px;
   .main_second {
     display: none;
   }
@@ -331,11 +324,12 @@ background: var(--700, #171717);
   }
   .texts_warpper {
     display: flex;
-   
+    align-items: center;
   }
   .button_wrap {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   .testStyle {
     font-size: 8px;

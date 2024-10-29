@@ -3,6 +3,7 @@ import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import FolderIcon from '@mui/icons-material/Folder';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { NavLink } from 'react-router-dom';
 
 
 const Left_side_Component = () => {
@@ -29,10 +30,10 @@ const Left_side_Component = () => {
                    <div className='long_text_wrapper'>
                      <p className='connect'>Connect Digitally Grow Exponentially Businesses Digitally Crafted for Digital Transforming</p>   
                    </div>
-                   <div className='right_side_butt'>
+                   <NavLink to={"/projectDetail"} style={{textDecoration: "none"}}><div className='right_side_butt'>
                     <button className='but_style'>Read More</button>
-                   <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
+                    <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
+                    </div></NavLink>
                 </div>
               </div>
               <div className='wid'>
@@ -54,10 +55,10 @@ const Left_side_Component = () => {
                    <div className='long_text_wrapper'>
                      <p className='connect'>Connect Digitally Grow Exponentially Businesses Digitally Crafted for Digital Transforming</p>   
                    </div>
-                   <div className='right_side_butt'>
+                  <NavLink to={"/projectDetail"} style={{textDecoration: "none"}}><div className='right_side_butt'>
                     <button className='but_style'>Read More</button>
                    <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
+                  </div></NavLink>
                 </div>
               </div>
               <div className='wid'>
@@ -79,10 +80,10 @@ const Left_side_Component = () => {
                    <div className='long_text_wrapper'>
                      <p className='connect'>Connect Digitally Grow Exponentially Businesses Digitally Crafted for Digital Transforming</p>   
                    </div>
-                   <div className='right_side_butt'>
+                   <NavLink to={"/projectDetail"} style={{textDecoration: "none"}}><div className='right_side_butt'>
                     <button className='but_style'>Read More</button>
                    <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
+                   </div></NavLink>
                 </div>
               </div>
             </div>

@@ -98,7 +98,7 @@ const Right_side_Component = () => {
                 </div>
                 <div className='four_6_wrapper'>
                 <div className='fourth_line_tags'>
-                  <div className='fourth_tag'>Consulting</div>
+                  <div className='other'>Consulting</div>
                 </div>
                 <div className='fifth_line_tags'>
                   <div className='fifth_tag'>Media</div>

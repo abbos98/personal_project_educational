@@ -34,7 +34,7 @@ const OurServisesComponents = () => {
          <div className='box_style_other'>
            
          </div>
-          {/* <p className='Digital_style'>Digital Agency</p> */}
+      
          </div>
           
        </div></NavLink>

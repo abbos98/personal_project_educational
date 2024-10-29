@@ -282,11 +282,24 @@ export const Main_get = styled.div`
 .left_side {
   width: 370px;
 }
+.texts_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.get_in_touch {
+  text-align: center;
+}
 .Your_it {
-  line-height: 50px;
+  line-height: 45px;
+  font-size: 30px;
+  text-align: center;
 }
 .right_side {
   width: 370px;
+}
+.all_icons_wrapper {
+  padding-left: 90px;
 }
 }
 

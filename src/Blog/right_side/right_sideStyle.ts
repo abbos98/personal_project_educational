@@ -5,7 +5,8 @@ export const Wrapper_right = styled.div`
 
 .right_side_main {
   margin-top: 120px;
-  width: 310px;
+  max-width: 310px;
+  width: 100%;
 }
 .one {
   max-width: 310px;
@@ -28,7 +29,6 @@ export const Wrapper_right = styled.div`
   font-weight: 700;
   line-height: 36px;
   text-transform: capitalize;
-
 }
 .wrapper_input_search {
   display: flex;
@@ -262,6 +262,7 @@ export const Wrapper_right = styled.div`
   border-radius: 20px;
   background: var(--700, #171717);
   margin-top: 30px;
+  padding: 20px;
 }
 .tags_Style {
   color: var(--White, #FFF);
@@ -274,14 +275,25 @@ export const Wrapper_right = styled.div`
   text-transform: capitalize;
 }
 .tages_wrapper {
-
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding-top: 10px;
 
 }
 .one-3_wrapper {
   display: flex;
+  gap: 20px;
 }
 .first_line_tags {
-
+  cursor: pointer;
+}
+.first_line_tags:hover {
+  transform: scale(1.050);
+  border-radius: 999px;
+}
+.first_line_tags:active {
+  transform: scale(1.1);
 }
 .first_tag {
   max-width: 105px;
@@ -307,7 +319,13 @@ export const Wrapper_right = styled.div`
 
 }
 .second_line_tags {
-
+  cursor: pointer;
+}
+.second_line_tags:hover {
+  transform: scale(1.050);
+}
+.second_line_tags:active {
+  transform: scale(1.1);
 }
 .second_tag {
   max-width: 60px;
@@ -332,7 +350,13 @@ export const Wrapper_right = styled.div`
   justify-content: center;
 }
 .third_line_tags {
-
+  cursor: pointer;
+}
+.third_line_tags:hover {
+  transform: scale(1.050);
+}
+.third_line_tags:active {
+  transform: scale(1.1);
 }
 .third_tag {
   max-width: 150px;
@@ -355,40 +379,21 @@ export const Wrapper_right = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
 }
 .four_6_wrapper {
   display: flex;
-}
-.fourth_line_tags {
-
-}
-.third_tag {
-  max-width: 50px;
-  width: 100%;
-  height: 30px;
-  display: inline-flex;
-  padding: 5px 10px;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
-  border-radius: 999px;
-  border: 1px solid var(--200, #CCC);
-  color: var(--White, #FFF);
-  font-feature-settings: 'liga' off, 'clig' off;
-  font-family: "Inter", sans-serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-}
-.four_6_wrapper {
-
 }
 .fourth_line_tags {
-
+  cursor: pointer;
 }
-.third_tag {
+.fourth_line_tags:hover {
+  transform: scale(1.050);
+}
+.fourth_line_tags:active {
+  transform: scale(1.1);
+}
+.other {
   max-width: 100px;
   width: 100%;
   height: 30px;
@@ -406,12 +411,19 @@ export const Wrapper_right = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-}
-.fifth_line_tags {
 
 }
+.fifth_line_tags {
+  cursor: pointer;
+}
+.fifth_line_tags:hover {
+  transform: scale(1.050);
+}
+.fifth_line_tags:active {
+  transform: scale(1.1);
+}
 .fifth_tag {
-  max-width: 70px;
+  max-width: 60px;
   width: 100%;
   height: 30px;
   display: inline-flex;
@@ -430,10 +442,17 @@ export const Wrapper_right = styled.div`
   line-height: 26px;
 }
 .six_line_tags {
-
+  cursor: pointer;
+}
+.six_line_tags:hover {
+  transform: scale(1.050);
+}
+.six_line_tags:active{
+  transform: scale(1.1);
 }
 .six_tag {
-  width: 110px;
+  max-width: 100px;
+  width: 100%;
   height: 30px;
   display: inline-flex;
   padding: 5px 10px;
@@ -450,4 +469,5 @@ export const Wrapper_right = styled.div`
   font-weight: 400;
   line-height: 26px;
 }
+
 `

@@ -11,6 +11,7 @@ import CaruselComponent from "./Our_Team_7";
 import Get_in_TouchComponent from "./Get_in_touch_11";
 import TstComponent from "./A_digital_10";
 import Footer from "../context/footbar/footer";
+import Our_team_Component from "../AboutUs/Our_Best_Team";
 
 
 const MainPageComponent = () => {
@@ -21,18 +22,13 @@ const MainPageComponent = () => {
   <IlluminateCompanent />
   <OurServisesComponents />
   <NoteWorth_component />
-  <Lates_galleryComponent />
+  <Lates_galleryComponent /> 
   <CaruselComponent />
-
-  
-
   <Pricing_planeComponent />
- 
   <Resent_updatesComponent />
   <TstComponent />
   <Get_in_TouchComponent />
 
-  
   <Footer />
   
 

@@ -8,7 +8,9 @@ justify-content: center;
 padding-top: 120px;
 
 .main_main {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
+
 }
 .main_text_wrapper {
   padding-bottom: 50px;
@@ -21,6 +23,8 @@ padding-top: 120px;
   font-style: normal;
   font-weight: 700;
   line-height: 72px; 
+  max-width: 900px;
+  width: 100%;
 }
 .boxes_wrapper {
   display: flex;
@@ -28,7 +32,8 @@ padding-top: 120px;
   gap: 35px;
 }
 .box_style {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
   height: 140px;
   border-radius: 20px;
   border: 2px solid var(--700, #171717);
@@ -36,11 +41,12 @@ padding-top: 120px;
   justify-content: space-between;
   align-items: center;
   padding: 0px 15px;
+  cursor: pointer;
 }
 .box_style:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-    border: 1px solid yellow;
+  transform: scale(1.050);
+  transition-duration: 0.5s;
+  border: 1px solid yellow;
 }
 .first_line {
 
@@ -53,7 +59,9 @@ padding-top: 120px;
   width: 245px;
   font-style: normal;
   font-weight: 700;
-  line-height: 33px; 
+  line-height: 25px; 
+  max-width: 250px;
+  width: 100%;
 }
 .social_style {
   color: var(--800, #7A7A7A);
@@ -62,20 +70,23 @@ padding-top: 120px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px; 
+  line-height: 25px; 
+  max-width: 100px;
+  width: 100%;
 }
 .second_line {
 
 }
 .digital_mar {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   color: var(--White, #FFF);
   font-feature-settings: 'liga' off, 'clig' off;
   font-family: "Inter", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px; 
+  line-height: 25px; 
   opacity: 0.8;
 }
 .third_line {
@@ -120,11 +131,69 @@ button {
   line-height: 27px; 
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
+  width: 60px;
 }
 .arrow_style {
-    width: 15px;
+    max-width: 15px;
+    width: 100%;
     height: 15px;
     color: white;
+}
+
+
+@media only screen and (max-width: 930px) {
+
+
+.boxes_wrapper {
+  padding: 0px 15px;
+}
+
+
+
+
+}
+@media only screen and (max-width: 730px) {
+
+
+.grow_style {
+  max-width: 120px;
+  width: 100%;
+  line-height: 20px;
+}
+.digital_mar {
+  width: 170px;
+  line-height: 20px;
+}
+.box_image_style {
+  max-width: 130px;
+  width: 100%;
+}
+
+
+}
+@media only screen and (max-width: 430px) {
+  
+
+.main_text_style {
+  line-height: 40px;
+  font-size: 28px;
+}
+.grow_style {
+  font-size: 15px;
+  line-height: 15px;
+}
+.social_style {
+  width: 100px;
+  margin-top: 10px;
+}
+.digital_mar {
+  width: 125px;
+  line-height: 15px;
+}
+.third_line {
+  display: none;
+}
 }
 
 `

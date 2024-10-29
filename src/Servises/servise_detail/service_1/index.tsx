@@ -8,6 +8,7 @@ import down from '../../../assets/down.svg';
 import first_icon from '../../../assets/first_icon_in.svg'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import second_icon from '../../../assets/third_icon_in.svg';
+import { NavLink } from 'react-router-dom';
 
 
 const Service_first_cont = () => {
@@ -57,20 +58,20 @@ const Service_first_cont = () => {
              <div className='round_in'><img src={first_icon} /></div>
              <p className='navigate_style'>Navigate the Digital Landscape  Engagement Digitally</p>
              <div className='bottom_side_in'>
-            <div className='right_side'>
+            <NavLink to={"/servises"} style={{textDecoration: "none"}}><div className='right_side'>
                 <button className='but_style'>Read More</button>
                 <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
+            </div></NavLink>
        </div>
           </div>
           <div className='box_style'>
              <div className='round_in'><img src={second_icon} /></div>
              <p className='navigate_style'>Empowering Your Online Go Digital Success</p>
              <div className='bottom_side_in'>
-            <div className='right_side'>
+            <NavLink to={"/servises"} style={{textDecoration: "none"}}><div className='right_side'>
                 <button className='but_style'>Read More</button>
                 <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
+            </div></NavLink>
        </div>
           </div>
         </div>

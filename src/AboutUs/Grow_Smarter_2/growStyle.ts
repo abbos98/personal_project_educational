@@ -158,7 +158,6 @@ justify-content: center;
   background: #FFF;
 }
 
-
 @media only screen and (max-width: 1200px) {
 
 .main_main {
@@ -181,6 +180,7 @@ justify-content: center;
 
 @media only screen and (max-width: 940px) {
 
+
 .grade_wrapper {
   display: flex;
   flex-direction: column;
@@ -193,11 +193,13 @@ justify-content: center;
 
 @media only screen and (max-width: 600px) {
 
-
 .left_side {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+.why_style {
 
 }
 .Why_chose_wraepper {
@@ -210,9 +212,9 @@ justify-content: center;
 }
 .grow_style {
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   width: 370px;
-  line-height: 50px;
+  line-height: 40px;
   margin-top: 10px;
 }
 .digital_style {

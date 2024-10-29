@@ -13,6 +13,15 @@ padding-bottom: 120px;
   flex-direction: column;
   gap: 20px;
 }
+.icon_style {
+  color: white;
+}
+.text {
+  color: white;
+}
+.long_text_style {
+  color: white;
+}
 
 @media only screen and (max-width: 930px) {
   display: flex;

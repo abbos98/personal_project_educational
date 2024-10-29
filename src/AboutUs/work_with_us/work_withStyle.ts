@@ -329,19 +329,24 @@ padding-top: 100px;
 }
 @media only screen and (max-width:930px) {
 
+.rights {
+  background-color: red;
+}
+
 .main_main {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .firts_line {
-
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .work_with_us {
   font-size: 60px;
+  line-height: 80px;
+  text-align: center;
 
 }
 .second_line {

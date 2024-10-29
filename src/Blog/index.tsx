@@ -2,6 +2,7 @@ import { Wrapper_blog } from './blogStyle';
 import "../Blog/blogadd.css";
 import Left_side_Component from './left_side';
 import Right_side_Component from './right_side';
+import Work_witch_us_Component from '../AboutUs/work_with_us';
 
 const Blog_Component = () => {
   return (
@@ -24,104 +25,8 @@ const Blog_Component = () => {
     </div>
 </div>
 
-
-        {/* <div className='main_all_wrapper'>
-         <div className='left_side'>
-            <div className='image_and_box_wrapper'>
-              <div className='wid'>
-                <div className='image_top'>
-                   <div className='calendar_div'><PermContactCalendarIcon className='calendar_style' /></div>
-                   <div className='data_wrapper'>23 Dec 2023</div>
-                </div>
-                <div className='box_wrapper'>
-                   <div className='admin_category_wrapper'>
-                       <div className='admin_wrap'>
-                          <PermIdentityIcon className='person_id_style'/>
-                          <p className='by_admin_Style'>By admin</p>
-                       </div>
-                       <div className='Category_wrapper'> 
-                        <FolderIcon className='folder_style'/>
-                        <p className='category'>Category</p>
-                       </div>
-                   </div>
-                   <div className='long_text_wrapper'>
-                     <p className='connect'>Connect Digitally Grow Exponentially Businesses Digitally Crafted for Digital Transforming</p>   
-                   </div>
-                   <div className='right_side_butt'>
-                    <button className='but_style'>Read More</button>
-                   <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
-                </div>
-              </div>
-              <div className='wid'>
-                <div className='image_top'>
-                   <div className='calendar_div'><PermContactCalendarIcon className='calendar_style' /></div>
-                   <div className='data_wrapper'>23 Dec 2023</div>
-                </div>
-                <div className='box_wrapper'>
-                   <div className='admin_category_wrapper'>
-                       <div className='admin_wrap'>
-                          <PermIdentityIcon className='person_id_style'/>
-                          <p className='by_admin_Style'>By admin</p>
-                       </div>
-                       <div className='Category_wrapper'> 
-                        <FolderIcon className='folder_style'/>
-                        <p className='category'>Category</p>
-                       </div>
-                   </div>
-                   <div className='long_text_wrapper'>
-                     <p className='connect'>Connect Digitally Grow Exponentially Businesses Digitally Crafted for Digital Transforming</p>   
-                   </div>
-                   <div className='right_side_butt'>
-                    <button className='but_style'>Read More</button>
-                   <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
-                </div>
-              </div>
-              <div className='wid'>
-                <div className='image_top'>
-                   <div className='calendar_div'><PermContactCalendarIcon className='calendar_style' /></div>
-                   <div className='data_wrapper'>23 Dec 2023</div>
-                </div>
-                <div className='box_wrapper'>
-                   <div className='admin_category_wrapper'>
-                       <div className='admin_wrap'>
-                          <PermIdentityIcon className='person_id_style'/>
-                          <p className='by_admin_Style'>By admin</p>
-                       </div>
-                       <div className='Category_wrapper'> 
-                        <FolderIcon className='folder_style'/>
-                        <p className='category'>Category</p>
-                       </div>
-                   </div>
-                   <div className='long_text_wrapper'>
-                     <p className='connect'>Connect Digitally Grow Exponentially Businesses Digitally Crafted for Digital Transforming</p>   
-                   </div>
-                   <div className='right_side_butt'>
-                    <button className='but_style'>Read More</button>
-                   <div className='right_allow'><ArrowForwardIcon className='icon_style' /></div>
-            </div>
-                </div>
-              </div>
-            </div>
-         </div>
-
-         <div className='right_side_main'>
-             <div className='one'>
-
-             </div>
-             <div className='two'>
-
-             </div>
-             <div className='three'>
-
-             </div>
-             <div className='five'>
-
-             </div>
-             
-         </div>
-        </div> */}
+<Work_witch_us_Component />
+  
     </Wrapper_blog>
   )
 }

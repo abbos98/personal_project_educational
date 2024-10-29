@@ -19,6 +19,8 @@ export const Wrap_illuminate = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 900px;
+  width: 100%;
 }
 .yellow_line {
   max-width: 55px;
@@ -141,7 +143,7 @@ export const Wrap_illuminate = styled.div`
   from{
     margin: 0px;
   } to {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
   }
 }
 .wrapper_in {
@@ -221,7 +223,10 @@ export const Wrap_illuminate = styled.div`
 
 @media only screen and (max-width:1240px) {
 
-
+.second_line_with_images {
+  width: 100%;
+  height: 370px;
+}
 .person_style {
   max-width: 240px;
   width: 100%;
@@ -298,11 +303,16 @@ export const Wrap_illuminate = styled.div`
 }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 530px) {
 
+.Main_illuminate {
 
+}
+.first_line_vs_text {
+  width: 100%;
+  
+}
 .text_style {
-  max-width: 400px;
   width: 100%;
   color: var(--White, #FFF);
   text-align: center;
@@ -313,6 +323,7 @@ export const Wrap_illuminate = styled.div`
   line-height: 40px; 
   padding-top: 10px;
   margin-top: 15px;
+
 }
 .second_line_with_images {
   display: flex;
@@ -322,15 +333,18 @@ export const Wrap_illuminate = styled.div`
 .inside_one {
   display: flex;
   justify-content: center;
+  margin-top: 80px;
 }
 .person_style {
   max-width: 290px;
   width: 100%;
   height: 320px;
   border-radius: 30px;
+  
 }
 .text_head {
   text-align: center;
+ 
 }
 .text_tab {
   color: var(--White, #FFF);
@@ -342,14 +356,18 @@ export const Wrap_illuminate = styled.div`
   font-weight: 400;
   line-height: 26px;
   max-width: 430px;
+ 
 }
 .yellow_line_wrapper {
+  margin-top: 50%;
 
 }
 .presence_style {
   font-size: 12px;
   line-height: 26px;
+
+
+
 }
-
-
+}
 `

@@ -213,7 +213,9 @@ justify-content: center;
 height: 1650px;
 
 .text_style {
-  width: 390px;
+  width: 360px;
+  line-height: 40px;
+  font-size: 28px;
 }
 .second_line_with_images {
   display: flex;

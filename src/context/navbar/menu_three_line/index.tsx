@@ -2,13 +2,10 @@ import * as React from 'react';
 import Box from '@mui/joy/Box';
 import IconButton from '@mui/joy/IconButton';
 import Drawer from '@mui/joy/Drawer';
-import Input from '@mui/joy/Input';
 import List from '@mui/joy/List';
 import ListItemButton from '@mui/joy/ListItemButton';
-import Typography from '@mui/joy/Typography';
 import ModalClose from '@mui/joy/ModalClose';
 import Menu from '@mui/icons-material/Menu';
-import Search from '@mui/icons-material/Search';
 import { NavLink } from 'react-router-dom';
 
 export default function DrawerMobileNavigation() {
@@ -33,7 +30,7 @@ export default function DrawerMobileNavigation() {
 
           <ModalClose id="close-icon" sx={{ position: 'initial' }} />
         </Box>
-        <Input
+        {/* <Input
           size="sm"
           placeholder="Search"
           variant="plain"
@@ -65,7 +62,7 @@ export default function DrawerMobileNavigation() {
               transform: 'scaleX(1)',
             },
           }}
-        />
+        /> */}
         <List
           size="lg"
           component="nav"
@@ -76,12 +73,11 @@ export default function DrawerMobileNavigation() {
           }}
         >
           <NavLink to={"/"} style={{textDecoration: "none"}}><ListItemButton>Home</ListItemButton></NavLink>
-          <NavLink to={"aboutus"} style={{textDecoration: "none"}}><ListItemButton>About Us</ListItemButton></NavLink>
-          <ListItemButton>Services</ListItemButton>
-          <ListItemButton>Projects</ListItemButton>
-          <ListItemButton>Blog</ListItemButton>
-          <ListItemButton>Page</ListItemButton>
-          <ListItemButton>Contact</ListItemButton>
+          <NavLink to={"/aboutus"} style={{textDecoration: "none"}}><ListItemButton>About Us</ListItemButton></NavLink>
+          <NavLink to={"/servises"} style={{textDecoration: "none"}}><ListItemButton>Services</ListItemButton></NavLink>
+          <NavLink to={"/project"} style={{textDecoration: "none"}}><ListItemButton>Projects</ListItemButton></NavLink>
+          <NavLink to={"/blog"} style={{textDecoration: "none"}}><ListItemButton>Blog</ListItemButton></NavLink>
+          <NavLink to={"/contact"} style={{textDecoration: "none"}}><ListItemButton>Contact</ListItemButton></NavLink>
         </List>
       </Drawer>
     </React.Fragment>

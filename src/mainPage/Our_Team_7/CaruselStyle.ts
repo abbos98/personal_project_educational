@@ -5,6 +5,14 @@ background-color:  #0B0B0B;
 height: 920px;
 padding-top: 120px;
 
+.all_main_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_for_smaller {
+  display: none;
+}
 .iconYellow_text_wrap {
   display: flex;
   flex-direction: column;
@@ -45,9 +53,22 @@ padding-top: 120px;
 }
 
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 1050px) {
+  padding-top: 0px;
+.all_main_wrapper {
   display: none;
 }
+.main_for_smaller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+@media only screen and (max-width: 930px) {
+ height: 1280px;
+}
 
-
+@media only screen and (max-width: 620px) {
+height: 1690px;
+}
 `

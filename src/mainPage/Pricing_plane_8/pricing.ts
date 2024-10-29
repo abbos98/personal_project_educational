@@ -8,8 +8,8 @@ export const Wrapper_prising = styled.div`
 
 
 .Pricing_plane_wrapper {
-  
-  
+  max-width: 900px;
+  width: 100%;
 }
 .top_text_sstyle {
   display: flex;
@@ -89,11 +89,12 @@ export const Wrapper_prising = styled.div`
   align-items: center;
   margin-top: 30px;
   margin-bottom: 100px;
+  width: 100%;
 }
 
 
 @media only screen and (max-width: 930px) {
-
+  padding-top: 0px;
 
 
 .Pricing_plane_wrapper {
@@ -108,6 +109,11 @@ export const Wrapper_prising = styled.div`
 }
 .Pricing_style {
   padding-top: 10px;
+  color: var(--White, #FFF);
+  font-family: "Syne", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
 }
 .line_second {
   width: 600px;
@@ -119,13 +125,17 @@ export const Wrapper_prising = styled.div`
 }
 }
 
-@media only screen and (max-width: 430px) {
-  
+@media only screen and (max-width: 630px) {
+
 
 .top_text_sstyle {
   display: flex;
   flex-direction: column;
-
+  width: 100%;
 }
+.line_second {
+  display: none;
+}
+
 }
 `

@@ -186,7 +186,6 @@ export const Noteworth_wrapper = styled.div`
   border: solid yellow;
 }
 }
-
 @media only screen and (max-width: 930px){
 
 .long_boxes_wrapper {
@@ -331,7 +330,11 @@ export const Noteworth_wrapper = styled.div`
 @media only screen and (max-width: 730px) {
 
 
-
+.long_boxes_wrapper {
+}
+.noteworthy_style {
+  font-size: 32px;
+}
 .box_style {
   max-width: 350px;
   width: 100%;
@@ -404,11 +407,12 @@ export const Noteworth_wrapper = styled.div`
   font-weight: 400;
   line-height: 15px; 
   margin-top: 10px;
+  text-align: center;
 }
 .right_side {
   display: inline-flex;
-  height: 30px;
-  width: 100px;
+  height: 20px;
+  width: 120px;
   justify-content: center;
   align-items: center;
   gap: 10px;

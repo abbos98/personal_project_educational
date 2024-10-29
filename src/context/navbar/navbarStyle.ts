@@ -124,11 +124,13 @@ export const Wrapper_navbar = styled.div`
 }
 
 
-@media only screen and (max-width: 1240px) {
-  padding: 0px 30px;
+@media only screen and (max-width: 930px) {
+
 
 .wrapper_all_side {
   display: flex;
+  padding: 0px 25px;
+  padding-top: 40px;
 }
 .login_and_cart_wrapper {
   gap: 15px;
@@ -156,12 +158,8 @@ export const Wrapper_navbar = styled.div`
 .right_side {
   display: none;
 }
-
 }
 
-@media only screen and (max-width: 930px) {
- 
-}
 
 
 

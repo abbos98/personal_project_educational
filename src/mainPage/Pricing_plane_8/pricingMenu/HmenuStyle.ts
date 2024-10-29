@@ -208,5 +208,8 @@ export const Wrapper_Hmenu = styled.div`
   cursor: pointer;
   border: 1px solid yellow;
 }  
+.basic_plan {
+ 
+}
 }
 `

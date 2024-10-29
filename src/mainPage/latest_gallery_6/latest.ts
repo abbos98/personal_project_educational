@@ -38,6 +38,7 @@ justify-content: center;
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  width: 100%;
 }
 .inside_line {
   max-width: 1290px;
@@ -91,7 +92,7 @@ justify-content: center;
 }
 
 @media only screen and (max-width: 930px) {
-display: flex;
+  display: flex;
 
 .Top_texts_wrapper {
   display: flex;
@@ -130,8 +131,13 @@ display: flex;
 }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 630px) {
 
+.all_main_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .Top_texts_wrapper {
   display: flex;
   flex-direction: column;
@@ -142,9 +148,15 @@ display: flex;
 .long_texts_style {
   text-align: center;
   padding-top: 20px;
+ 
+}
+.line_under-wrapper {
+  width: 350px;
+  display: flex;
+  justify-content: center;
 }
 .images_wrapper {
-
+ 
 }
 .hana {
   width: 160px;

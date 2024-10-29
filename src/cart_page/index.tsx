@@ -2,6 +2,7 @@ import { Wrapper_CartPage } from './cartPageSty;le';
 import one from "../assets/box_first.svg";
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
+import { NavLink } from 'react-router-dom';
 
 const CartPage_component = () => {
   return (
@@ -47,7 +48,9 @@ const CartPage_component = () => {
             </div>
 
         <div className='button_wrapper'>
-          <button className='but_style'>Let's buy</button>
+          <NavLink to={"/"} className='but_style'>
+            <button className='lets_buy'>Let's buy</button>
+          </NavLink>
         </div>
 
         </div>

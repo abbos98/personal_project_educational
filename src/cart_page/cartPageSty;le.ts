@@ -185,12 +185,26 @@ justify-content: center;
   border: 2px solid green;
   background: linear-gradient(to right, yellow,green);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 .but_style:hover {
   transform: scale(1.040);
 }
 .but_style:active {
   transform: scale(1.080); 
+}
+.lets_buy {
+  border: none;
+  background: transparent;
+  color: var(--White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Inter", sans-serif;
+  font-size: 18.281px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
 }
 
 @media only screen and (max-width: 900px) {

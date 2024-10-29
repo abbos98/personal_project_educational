@@ -155,12 +155,29 @@ export const Sometihing = styled.div`
   align-items: center;
 }
 .left_side {
-  width: 390px;
+  width: 360px;
 
 }
 .right_side {
-  width: 360px;
+  width: 350px;
   margin-left: 0px;
+}
+.long_text {
+  font-size: 18px;
+  line-height: 30px;
+}
+.person_wrapper {
+  display: flex;
+  align-items: center;
+}
+.text_wrap {
+  margin-top: 10px;
+}
+.name {
+  line-height: 20px;
+}
+.web {
+  line-height: 20px;
 }
 }
 `

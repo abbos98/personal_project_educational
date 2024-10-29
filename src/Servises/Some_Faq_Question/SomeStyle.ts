@@ -7,9 +7,9 @@ display: flex;
 justify-content: center;
 background-color:  #0B0B0B;
 
-
 .main_wrapper {
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
 }
 .text_wrapper {
   display: flex;
@@ -26,16 +26,17 @@ background-color:  #0B0B0B;
   line-height: 50px; 
 }
 .all_side_wrapper {
-    display: flex;
-    align-items: center;
-    padding-top: 50px;
-    gap: 50px;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  gap: 50px;
 }
 .right_side_wrapper {
 
 }
 .rigth_image {
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   height: 400px;
   border-radius: 20px;
 }
@@ -51,9 +52,12 @@ height: 1100px;
   display: flex;
   flex-direction: column-reverse;
 }
+}
+@media only screen and (max-width: 430px) {
 
-
-
+  .some_style {
+    font-size: 40px;
+  }
 }
 
 
